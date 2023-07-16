@@ -1,0 +1,9 @@
+.page {
+  padding: 0 7rem;
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 0 1rem;
+  }
+}

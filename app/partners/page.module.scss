@@ -1,0 +1,64 @@
+.page {
+  padding: 2rem 0;
+  @media (max-width: 480px) {
+    padding: 3rem 0;
+  }
+}
+
+.partners {
+  background-image: url(/zanzibar/img/bg/partner.png);
+  padding: 2rem 0;
+}
+
+.header {
+  display: grid;
+  padding: 2rem 7rem;
+  grid-template-columns: 5fr 3fr;
+  gap: 5%;
+  align-items: center;
+  @media (max-width: 480px) {
+    padding: 0 2rem;
+    grid-template-columns: 1fr;
+  }
+  h2 {
+    font-size: 3.6rem;
+  }
+  p {
+    line-height: 2;
+    margin: 2rem 0;
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 480px) {
+  .icon {
+    grid-row: 1;
+    svg {
+      height: 300px;
+      & > g {
+        transform: scale(0.8);
+      }
+    }
+  }
+}
+
+.slider {
+  margin: 3rem 6rem;
+  img {
+    object-fit: contain;
+  }
+  @media (max-width: 480px) {
+    margin: 4rem 1.5rem;
+  }
+}
+
+.logo {
+  svg {
+    height: 70px;
+    width: 140px;
+    object-fit: contain;
+    @media (max-width: 480px) {
+      height: 50px;
+      width: 130px;
+    }
+  }
+}

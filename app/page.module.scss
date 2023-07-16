@@ -1,0 +1,28 @@
+.events_testimonials_section > div {
+  display: flex;
+  padding: 6rem 0;
+  position: relative;
+  // align-items: flex-start;
+  gap: 3%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials {
+  overflow: hidden;
+  width: 50%;
+}
+
+@media (max-width: 480px) {
+  .events_testimonials_section > div {
+    flex-direction: column;
+    padding: 3rem 0;
+  }
+  .testimonials {
+    width: 100%;
+  }
+  .feedback_image {
+    height: 300px;
+  }
+}

@@ -1,0 +1,42 @@
+.page {
+  padding: 5rem 0;
+}
+
+.research {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 0 7rem;
+  svg {
+    flex: 50%;
+    width: 550px;
+    height: 550px;
+  }
+}
+
+.content {
+  flex: 50%;
+  h1 {
+    font-size: 3.6rem;
+  }
+  p {
+    margin: 3rem 0;
+    line-height: 2.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 5rem 0rem;
+  }
+  .research {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+
+  .content {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
