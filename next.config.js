@@ -1,15 +1,7 @@
 import withPlaiceholder from "@plaiceholder/next";
-
 /** @type {import('next').NextConfig} */
 
 const isProd = process.env.NODE_ENV === "production";
-
-// let nextProdConfig = isProd && {
-//   assetPrefix: "/zanzibar",
-//   images: {
-//     path: "/zanzibar/_next/image",
-//   },
-// };
 
 let config = {
   images: {
@@ -17,7 +9,6 @@ let config = {
     contentDispositionType: "attachment",
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
-  ...nextProdConfig,
 };
 
 export default withPlaiceholder(config);
