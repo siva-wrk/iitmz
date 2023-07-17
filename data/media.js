@@ -24,7 +24,7 @@ const media = {
     {
       title:
         "IIT Campus In Tanzania's Zanzibar To Offer Data Science And AI Courses, Classes To Start From October",
-      desc: "The first Indian Institute of Technology (IIT) overseas campus is set to become operational in October in Tanzania&rsquo;s Zanzibar with the initial intake of 70 students in two programs. The campus, known as IITM Zanzibar, is a collaboration between IIT-M and Tanzania. Initially, the faculty will be deputed from IIT-M to Tanzania and subsequently local faculty members would also be recruited, said IIT-M in a press release on Monday.",
+      desc: "The first Indian Institute of Technology (IIT) overseas campus is set to become operational in October in Tanzania's Zanzibar with the initial intake of 70 students in two programs. The campus, known as IITM Zanzibar, is a collaboration between IIT-M and Tanzania. Initially, the faculty will be deputed from IIT-M to Tanzania and subsequently local faculty members would also be recruited, said IIT-M in a press release on Monday.",
       link: "https://www.outlookindia.com/national/iit-tanzania-campus-to-offer-data-science-and-ai-courses-classes-to-start-from-october-news-301721",
       image: {
         url: "/media1.webp",
@@ -43,7 +43,7 @@ const media = {
     },
     {
       title: "First IIT overseas campus in Zanzibar, with woman director",
-      desc: "In another milestone for IITs, Dr Preeti Aghalayam will become the first woman director-in-charge for IIT Madras in Zanzibar and the first ever woman to be an IIT director. IITM Director Professor V Kamakoti told the media that her appointment to the high-profile role was in line with IITM&rsquo;s aim to bring women into leadership roles and work for gender balance.",
+      desc: "In another milestone for IITs, Dr Preeti Aghalayam will become the first woman director-in-charge for IIT Madras in Zanzibar and the first ever woman to be an IIT director. IITM Director Professor V Kamakoti told the media that her appointment to the high-profile role was in line with IITM's aim to bring women into leadership roles and work for gender balance.",
       link: "https://www.universityworldnews.com/post.php?story=20230712150651470",
       image: {
         url: "/media3.jpg",
@@ -61,7 +61,7 @@ const media = {
       },
     },
     {
-      title: "Indian students can also apply at IIT&rsquo;s African campus",
+      title: "Indian students can also apply at IIT's African campus",
       desc: "Indian students can also apply and appear for the three-level process for admission into the first offshore campus to be started by the Indian Institute of Technology Madras on the African island of Zanzibar in Tanzania. The campus will offer two full-time academic programmes, a four-year Bachelor of Science in Data Science and Artificial Intelligence and a two-year Master of Technology in Data Science and Artificial Intelligence.",
       link: "https://www.outlookindia.com/national/iit-tanzania-campus-to-offer-data-science-and-ai-courses-classes-to-start-from-october-news-301721",
       image: {
