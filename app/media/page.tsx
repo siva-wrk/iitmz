@@ -9,12 +9,12 @@ export default function MediaPage() {
       <div className={styles.section}>
         <div className={styles.youtube_container}>
           {media.yt.map((video) => (
-            <YouTubePlayer videoId={video.id} />
+            <YouTubePlayer key={video.id} videoId={video.id} />
           ))}
         </div>
         <div className={styles.news_container}>
           {media.articles.map((article) => (
-            <NewsCard {...article} />
+            <NewsCard key={article.title} {...article} />
           ))}
         </div>
       </div>
