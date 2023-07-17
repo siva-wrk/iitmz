@@ -8,6 +8,7 @@
   flex-wrap: wrap;
   & > div {
     width: calc(50% - 1.3rem);
+    background-color: black;
     iframe {
       width: 100%;
     }
@@ -29,7 +30,7 @@
   }
   .youtube_container {
     & > div {
-      width: 100%;
+      width: 100% !important;
     }
   }
   .news_container {
