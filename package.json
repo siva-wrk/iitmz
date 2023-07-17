@@ -26,7 +26,7 @@
     "react-blaze-slider": "^1.7.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
-    "react-youtube": "^10.1.0",
+    "react-player": "^2.12.0",
     "sharp": "^0.32.1",
     "typescript": "^5.1.3"
   },
