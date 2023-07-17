@@ -37,33 +37,6 @@
   }
 }
 
-.card {
-  padding: 3rem 0 3rem 4rem;
-  background-color: #f6f8fb;
-  align-self: stretch;
-  width: 70%;
-  &:last-child {
-    padding-right: 4rem;
-  }
-  img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 2%;
-    margin-bottom: 20px;
-    object-position: top;
-  }
-  h3 {
-    font-size: 1.6rem;
-    margin-bottom: 15px;
-    line-height: 1;
-  }
-  p {
-    margin-bottom: 0;
-    font-size: 1.4rem;
-  }
-}
-
 @media (max-width: 575px) {
   .section {
     margin-top: -7rem;
@@ -76,13 +49,6 @@
     padding: 3rem 4rem;
     h3 {
       margin-bottom: 2rem;
-    }
-  }
-  .card {
-    width: 100%;
-    padding: 2rem;
-    &:last-child {
-      padding-right: 2rem;
     }
   }
 }

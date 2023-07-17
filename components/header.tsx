@@ -2709,6 +2709,7 @@ export default function Header() {
         <Link href="/zanzibar/academics/">Academics</Link>
         <Link href="/zanzibar/research/">Research</Link>
         <Link href="/zanzibar/careers/">Careers</Link>
+        <Link href="/zanzibar/media/">In Media</Link>
         <Link href="/zanzibar/testimonials/">Testimonials</Link>
         <Link href="/zanzibar/campus-life/">Campus Life</Link>
         <Link href="/zanzibar/admission">Admissions</Link>
