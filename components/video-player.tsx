@@ -8,7 +8,7 @@ export default function VideoPlayer({ url }: { url: string }) {
       <ReactPlayer
         url={`https://www.youtube.com/watch?v=${url}`}
         light={true}
-        height="340px"
+        height="100%"
         width="100%"
         playing={true}
       />
