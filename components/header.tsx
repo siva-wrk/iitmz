@@ -2709,6 +2709,7 @@ export default function Header() {
         <Link href="/academics/">Academics</Link>
         <Link href="/research/">Research</Link>
         <Link href="/careers/">Careers</Link>
+        <Link href="/media/">In Media</Link>
         <Link href="/testimonials/">Testimonials</Link>
         <Link href="/campus-life/">Campus Life</Link>
         <Link href="/admission/">Admissions</Link>
