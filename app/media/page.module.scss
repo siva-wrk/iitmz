@@ -8,9 +8,10 @@
   flex-wrap: wrap;
   & > div {
     width: calc(50% - 1.3rem);
-    background-color: black;
     iframe {
       width: 100%;
+      z-index: 5;
+      position: relative;
     }
   }
 }
@@ -30,7 +31,7 @@
   }
   .youtube_container {
     & > div {
-      width: 100% !important;
+      width: 100%;
     }
   }
   .news_container {
