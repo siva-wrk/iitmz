@@ -28,7 +28,7 @@ export default function Header() {
 
       <div className="container">
         <div className={styles.main}>
-          <Link href="/zanzibar" title="IIT Madras" className={styles.logo}>
+          <Link href="/" title="IIT Madras" className={styles.logo}>
             <svg
               version="1.1"
               id="Layer_1"
@@ -2705,14 +2705,14 @@ export default function Header() {
         </div>
       </div>
       <nav className={`${styles.nav} ${navToggle ? styles.nav_show : ``}`}>
-        <Link href="/zanzibar">Home</Link>
-        <Link href="/zanzibar/academics/">Academics</Link>
-        <Link href="/zanzibar/research/">Research</Link>
-        <Link href="/zanzibar/careers/">Careers</Link>
-        <Link href="/zanzibar/media/">In Media</Link>
-        <Link href="/zanzibar/testimonials/">Testimonials</Link>
-        <Link href="/zanzibar/campus-life/">Campus Life</Link>
-        <Link href="/zanzibar/admission">Admissions</Link>
+        <Link href="/">Home</Link>
+        <Link href="/academics/">Academics</Link>
+        <Link href="/research/">Research</Link>
+        <Link href="/careers/">Careers</Link>
+        <Link href="/media/">In Media</Link>
+        <Link href="/testimonials/">Testimonials</Link>
+        <Link href="/campus-life/">Campus Life</Link>
+        <Link href="/admission/">Admissions</Link>
       </nav>
     </header>
   );
