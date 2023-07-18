@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import styles from "./header.module.scss";
 import Link from "next/link";
-import Button from "./button";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import ApplyDropdown from "./apply-dropdown";
@@ -2677,9 +2677,11 @@ export default function Header() {
 
           <a href="https://www.iitm.ac.in/" className={styles.link_box}>
             An Institute of Eminence
-            <img
-              src="https://www.iitm.ac.in/themes/custom/iitm/assets/images/header/ioe.png"
-              alt=""
+            <Image
+              src="/ioe.png"
+              width={20}
+              height={24}
+              alt="Institute Of Eminence Icon"
             />
           </a>
 
