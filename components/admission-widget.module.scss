@@ -41,3 +41,12 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .widget {
+    transform: rotate(-90deg) translateY(12rem);
+    &:hover {
+      transform: rotate(-90deg) translateY(3rem);
+    }
+  }
+}

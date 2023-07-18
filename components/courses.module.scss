@@ -141,6 +141,12 @@
         width: 100%;
       }
     }
+    .content {
+      width: 100%;
+      p {
+        margin-top: 0;
+      }
+    }
     .footer {
       & > div {
         // flex: 1 0 30%;
@@ -180,7 +186,7 @@
   }
   .content {
     width: 100%;
-    padding: 25px 25px 15px;
+    padding: 25px;
   }
   .footer {
     gap: 10px;
