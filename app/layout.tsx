@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import { Lato, Raleway } from "next/font/google";
 import Header from "@/components/header";
 // import Footer from "@/components/footer";
+import AdmissionWidget from "@/components/admission-widget";
 import Script from "next/script";
 
 const lato = Lato({
@@ -39,6 +40,7 @@ export default function RootLayout({
         <Header />
         {children}
         {/* <Footer /> */}
+        <AdmissionWidget />
       </body>
     </html>
   );

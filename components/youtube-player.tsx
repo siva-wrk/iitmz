@@ -1,5 +1,4 @@
 import VideoPlayer from "./video-player";
-import getPlaceHolder from "@/lib/getPlaceHolder";
 
 const fetchPreviewImage = async (id: string) => {
   let imageRes = await fetch(`https://i.ytimg.com/vi/${id}/maxresdefault.jpg`);
