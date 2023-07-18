@@ -3,7 +3,6 @@
   background-color: #dddbdd;
   position: relative;
   overflow: hidden;
-  z-index: 1;
   &::before {
     position: absolute;
     top: 0;
@@ -26,4 +25,9 @@
       transform: translateX(100%);
     }
   }
+}
+
+.bg {
+  background: #000;
+  position: relative;
 }

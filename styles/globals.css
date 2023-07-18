@@ -129,16 +129,3 @@ a {
     max-width: 1240px;
   }
 }
-
-/* React Video Player */
-.react-player__preview {
-  z-index: 2;
-  position: relative;
-}
-.react-player__shadow {
-  z-index: 3;
-}
-.react-player__play-icon {
-  cursor: pointer;
-  z-index: 4;
-}
