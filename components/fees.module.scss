@@ -1,10 +1,15 @@
 .section {
+  padding: 3rem 0;
   & > div {
     display: flex;
-    padding: 3rem 0 2rem;
+
     display: flex;
     gap: 2%;
     align-items: center;
+  }
+  p {
+    text-align: center;
+    margin-top: 1rem;
   }
 }
 .header {
@@ -29,13 +34,13 @@
 
 .card {
   // width: 33.33%;
-  width: 60%;
+  width: 50%;
   margin-right: auto;
   position: relative;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  padding: 2rem 2rem 1rem;
+  padding: 2rem;
   background: #fff;
   //box-shadow: 0 10px 40px rgba(12, 29, 74, 0.08);
   h3 {
@@ -52,7 +57,7 @@
     }
   }
   ul {
-    margin: 1rem 0 2rem;
+    margin: 1rem 0;
     li {
       line-height: 2.4rem;
       font-size: 1.5rem;
@@ -81,7 +86,13 @@
     & > div {
       flex-direction: column;
       width: 100%;
-      padding: 1rem 0 5rem;
+      padding: 1rem 0;
+    }
+    p {
+      line-height: 1.7;
+      padding: 2rem;
+      text-align: left;
+      margin-top: 0;
     }
   }
   .header {
@@ -93,7 +104,7 @@
   }
   .card {
     width: 100%;
-    padding: 0;
+    padding: 1rem;
     ul {
       margin: 0;
       li {

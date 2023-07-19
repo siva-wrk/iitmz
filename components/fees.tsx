@@ -20,7 +20,7 @@ export default function Fees() {
           </a> */}
         </div>
 
-        <div className={styles.card}>
+        {/* <div className={styles.card}>
           <ul>
             <li>
               Bachelor of Science (DS & AI): USD 12000 per year* + Accommodation
@@ -36,43 +36,35 @@ export default function Fees() {
               to 80% will be available for meritorious candidates
             </li>
           </ul>
-          {/* <a
-            className="edo-course-sec-btn"
-            href="https://admissions.ge.iitm.ac.in"
-          >
-            Apply now
-          </a> */}
+        </div> */}
+        <div className={styles.card}>
+          <h3>BS in Data Science & AI</h3>
+          <ul>
+            <li>
+              Tution Fee: <span>USD 12000 / p.a.</span>
+            </li>
+            <li>
+              Accomodation (Twin Sharing): <span>USD 4000 / p.a.</span>
+            </li>
+          </ul>
         </div>
-        {/* <div className={styles.card}>
+        <div className={styles.card}>
           <h3>M.Tech in Data Science & AI</h3>
           <ul>
             <li>
-              Admission Fee: <span>$500</span>
+              Tution Fee: <span>USD 4000 / p.a.</span>
             </li>
             <li>
-              Semester I: <span>$2000</span>
-            </li>
-            <li>
-              Semester II: <span>$2000</span>
-            </li>
-            <li>
-              Semester III: <span>$2000</span>
-            </li>
-            <li>
-              Semester IV: <span>$2000</span>
-            </li>
-            <li>
-              Medical Insurance: <span>$300</span>
+              Accomodation (Twin Sharing): <span>USD 4000 / p.a.</span>
             </li>
           </ul>
-          <a
-            className="edo-course-sec-btn"
-            href="https://admissions.ge.iitm.ac.in"
-          >
-            Apply now
-          </a>
-        </div> */}
+        </div>
       </div>
+      <p>
+        Qualifying students will be eligible for attractive scholarships which
+        will include tuition breaks. * Tuition fee waiver up to 80% will be
+        available for meritorious candidates
+      </p>
     </section>
   );
 }
