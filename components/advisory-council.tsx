@@ -6,7 +6,7 @@ import Button from "./button";
 export default function AdvisoryCouncil() {
   return (
     <div className={styles.section}>
-      <h2 className="section-title center line">Advisory Council</h2>
+      <h2 className="section-title center">Advisory Council</h2>
       <div className="container">
         <div className={styles.card}>
           <Img
@@ -54,17 +54,18 @@ export default function AdvisoryCouncil() {
           </Link> */}
         </div>
         <div className={styles.card}>
+          <h3>Chaired By</h3>
           <Img
             src="/raghunathan.jpg"
             alt="Picture of Chair Raghunathan Rengaswamy"
-            width={200}
-            height={200}
+            width={180}
+            height={180}
             style={{ objectFit: "cover" }}
           />
           <div className={styles.body}>
             <h2>Raghunathan Rengaswamy</h2>
-            <h4>Dean</h4>
-            <p>Indian Institute of Technology Madras</p>
+            <h4>Dean, Global Engagement</h4>
+            <p>Indian Institute of Technology, Madras</p>
           </div>
         </div>
       </div>
