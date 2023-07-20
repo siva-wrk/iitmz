@@ -10,22 +10,6 @@ export default function AdvisoryCouncil() {
       <div className="container">
         <div className={styles.card}>
           <Img
-            src="/raghunathan.jpg"
-            alt="Picture of Chair Raghunathan Rengaswamy"
-            width={200}
-            height={200}
-            style={{ objectFit: "cover" }}
-          />
-          <div className={styles.body}>
-            <h2>
-              Raghunathan <br /> Rengaswamy
-            </h2>
-            <h4>Dean, Office of Global Engagement</h4>
-            <p>Department of Chemical Engineering, IIT Madras</p>
-          </div>
-        </div>
-        <div className={styles.card}>
-          <Img
             src="/robin-mason.jpg"
             alt="Picture of Prof Robin Mason"
             width={200}
@@ -68,6 +52,20 @@ export default function AdvisoryCouncil() {
           {/* <Link href="https://ibse.iitm.ac.in/people/raghunathan-rengaswamy/">
             <Button kind="SECONDARY">View Bio</Button>
           </Link> */}
+        </div>
+        <div className={styles.card}>
+          <Img
+            src="/raghunathan.jpg"
+            alt="Picture of Chair Raghunathan Rengaswamy"
+            width={200}
+            height={200}
+            style={{ objectFit: "cover" }}
+          />
+          <div className={styles.body}>
+            <h2>Raghunathan Rengaswamy</h2>
+            <h4>Dean</h4>
+            <p>Indian Institute of Technology Madras</p>
+          </div>
         </div>
       </div>
     </div>
