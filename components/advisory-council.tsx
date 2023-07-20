@@ -32,7 +32,9 @@ export default function AdvisoryCouncil() {
           />
           <div className={styles.body}>
             <h2>Dr. Mridula Nair</h2>
-            <h4>Research Fellow</h4>
+            <h4>
+              Research Fellow & <br /> Distinguished Inventor
+            </h4>
             <p>Eastman Kodak Company, USA</p>
           </div>
         </div>
@@ -46,7 +48,7 @@ export default function AdvisoryCouncil() {
           />
           <div className={styles.body}>
             <h2>Dr. Pramath Raj Sinha</h2>
-            <h4>Founder</h4>
+            <h4>Founder & Chairman</h4>
             <p>Harappa Education</p>
           </div>
           {/* <Link href="https://ibse.iitm.ac.in/people/raghunathan-rengaswamy/">
@@ -63,7 +65,7 @@ export default function AdvisoryCouncil() {
             style={{ objectFit: "cover" }}
           />
           <div className={styles.body}>
-            <h2>Raghunathan Rengaswamy</h2>
+            <h2>Prof. Raghunathan Rengaswamy</h2>
             <h4>Dean, Global Engagement</h4>
             <p>Indian Institute of Technology, Madras</p>
           </div>
