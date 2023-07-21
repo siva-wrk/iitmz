@@ -2,30 +2,6 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.topbar {
-  background-color: #d50032;
-  padding: 1rem 0;
-  a {
-    color: #ffffff;
-    font-size: 1.3rem;
-    font-weight: 600;
-    display: inline-block;
-    border-right: 1px solid #e86c8a;
-    &:first-child {
-      padding: 0 2rem 0 0;
-    }
-    &:nth-child(2) {
-      padding: 0 2rem;
-    }
-  }
-  span {
-    padding-left: 2rem;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #ffffff;
-  }
-}
-
 .main {
   border-bottom: 1px solid rgba(120, 31, 25, 0.24);
   display: flex;
@@ -111,36 +87,7 @@
   }
 }
 
-.nav {
-  display: flex;
-  justify-content: center;
-
-  a {
-    font-size: 1.7rem;
-    font-weight: 500;
-    margin: 1.5rem 2rem;
-    font-family: "Raleway", sans-serif;
-  }
-}
-
 @media (max-width: 480px) {
-  .topbar {
-    padding: 0.6rem;
-    a {
-      font-size: 1rem;
-
-      &:first-child {
-        padding: 0 0.5rem 0 0;
-      }
-      &:nth-child(2) {
-        padding: 0 0.5rem;
-      }
-    }
-    span {
-      font-size: 1rem;
-      padding-left: 0.5rem;
-    }
-  }
   .main {
     padding: 0.8rem 0;
     .logo {
@@ -171,27 +118,5 @@
         display: block !important;
       }
     }
-  }
-  .nav {
-    display: none;
-    opacity: 0;
-    width: 100vw;
-    flex-direction: column;
-    transition: all 0.3s;
-    // background: #d50032;
-    // color: #fff;
-    height: 0;
-    padding: 1rem;
-    transition: all 0.5s;
-    a {
-      font-size: 1.6rem;
-      padding: 1.4rem;
-      margin: 0;
-    }
-  }
-  .nav_show {
-    display: flex;
-    opacity: 1;
-    height: auto;
   }
 }

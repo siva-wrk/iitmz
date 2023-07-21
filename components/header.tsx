@@ -1,11 +1,13 @@
 "use client";
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import styles from "./header.module.scss";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
 import { useState } from "react";
 import ApplyDropdown from "./apply-dropdown";
+import Topbar from "./topbar";
+import Navbar from "./navbar";
 
 export default function Header() {
   const [navToggle, setNavToggle] = useState(false);
@@ -16,16 +18,7 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <div className={styles.topbar}>
-        <div className="container">
-          <a href="tel:+919043338564">(+91) 9043338564</a>
-          <a href="mailto:iitm_zanzibar@ge.iitm.ac.in">
-            iitm_zanzibar@ge.iitm.ac.in
-          </a>
-          <span>Zanzibar, Tanzania</span>
-        </div>
-      </div>
-
+      <Topbar />
       <div className="container">
         <div className={styles.main}>
           <Link href="/" title="IIT Madras" className={styles.logo}>
@@ -2705,17 +2698,8 @@ export default function Header() {
             </svg>
           </button>
         </div>
+        <Navbar navToggle={navToggle} />
       </div>
-      <nav className={`${styles.nav} ${navToggle ? styles.nav_show : ``}`}>
-        <Link href="/">Home</Link>
-        <Link href="/academics/">Academics</Link>
-        <Link href="/research/">Research</Link>
-        <Link href="/careers/">Careers</Link>
-        <Link href="/media/">In Media</Link>
-        <Link href="/testimonials/">Testimonials</Link>
-        <Link href="/campus-life/">Campus Life</Link>
-        <Link href="/admission/">Admissions</Link>
-      </nav>
     </header>
   );
 }
