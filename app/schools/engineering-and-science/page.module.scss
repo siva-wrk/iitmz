@@ -98,10 +98,17 @@
 
 @media (max-width: 480px) {
   .header {
-    padding: 2rem 3rem;
-    height: 25vh;
+    padding: 3rem 2rem;
+    height: 22.5vh;
+    align-items: flex-start;
     h1 {
-      font-size: 2.6rem;
+      font-size: 2.4rem;
+      display: flex;
+      flex-direction: column;
+      svg {
+        margin-right: 0;
+        margin-bottom: 1rem;
+      }
     }
     img {
       object-fit: cover;

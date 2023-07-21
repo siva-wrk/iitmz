@@ -16,7 +16,7 @@ export default function AcademicsPage() {
           height={900}
         />
         <h1>
-          <FaUniversity /> School Of Engineering & Science
+          <FaUniversity /> School of Engineering & Science
         </h1>
       </div>
       <div className="container">

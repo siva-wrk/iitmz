@@ -5,7 +5,7 @@ const navMenu = [
     link: "",
     submenus: [
       {
-        title: "School of Science & Engineering",
+        title: "School of Engineering & Science",
         link: "/schools/engineering-and-science/",
         submenus: [
           {
