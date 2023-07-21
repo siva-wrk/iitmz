@@ -66,7 +66,7 @@ export default function Courses({ layout = "HORIZONTAL" }: CoursesProps) {
                   <AiOutlineUnorderedList />
                   <span>433 Credits</span>
                 </div>
-                <Link href="/academics/bs-data-science-and-ai">
+                <Link href="/schools/engineering-and-science/bs-data-science-and-ai">
                   <Button kind="SECONDARY">More Details</Button>
                 </Link>
                 <Link
@@ -112,7 +112,7 @@ export default function Courses({ layout = "HORIZONTAL" }: CoursesProps) {
                   <AiOutlineUnorderedList />
                   <span>190 Credits</span>
                 </div>
-                <Link href="/academics/mtech-data-science-and-ai">
+                <Link href="/schools/engineering-and-science/mtech-data-science-and-ai">
                   <Button kind="SECONDARY">More Details</Button>
                 </Link>
                 <Link

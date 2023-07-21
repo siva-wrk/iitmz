@@ -96,9 +96,9 @@
 }
 
 .section.vertical {
-  h2 {
-    display: none;
-  }
+  // h2 {
+  //   display: none;
+  // }
   .grid {
     padding: 3rem 0;
     flex-direction: column;
@@ -109,6 +109,7 @@
     img {
       width: 50%;
       height: 30rem;
+      border-radius: 3px;
     }
   }
   .content {
