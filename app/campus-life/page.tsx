@@ -25,7 +25,7 @@ export default function CampusLife() {
           <Img
             width={200}
             height={180}
-            src="/research1.jpeg"
+            src="/hero4.jpg"
             alt=""
             loading="eager"
           />
@@ -39,7 +39,7 @@ export default function CampusLife() {
           <Img
             width={200}
             height={180}
-            src="/research2x.jpeg"
+            src="/campus2.jpg"
             alt=""
             loading="eager"
           />
