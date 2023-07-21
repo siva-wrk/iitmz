@@ -58,10 +58,10 @@ export default function AdvisoryCouncil() {
         <div className={styles.card}>
           <h3>Chaired By</h3>
           <Img
-            src="/raghunathan.jpg"
+            src="/raghunathan-1.jpg"
             alt="Picture of Chair Raghunathan Rengaswamy"
-            width={180}
-            height={180}
+            width={185}
+            height={185}
             style={{ objectFit: "cover" }}
           />
           <div className={styles.body}>
