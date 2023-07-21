@@ -12,7 +12,13 @@ export default function Navbar({ navToggle }: NavbarProps) {
       <ul>
         {navMenu.map((navItem) => {
           const depthLevel = 0;
-          return <MenuItem item={navItem} depthLevel={depthLevel} />;
+          return (
+            <MenuItem
+              item={navItem}
+              depthLevel={depthLevel}
+              key={navItem.link}
+            />
+          );
         })}
       </ul>
     </nav>
