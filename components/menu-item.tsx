@@ -71,7 +71,11 @@ export default function MenuItem({ item, depthLevel }: MenuItemProps) {
             }}
           >
             {item.title}{" "}
-            {depthLevel > 0 ? <AiOutlineArrowRight /> : <BiCaretDown />}
+            {depthLevel > 0 ? (
+              <AiOutlineArrowRight />
+            ) : (
+              <BiCaretDown className={dropdown ? styles.arrow_open : ``} />
+            )}
           </button>
           <Dropdown
             submenus={item.submenus}
