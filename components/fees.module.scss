@@ -1,62 +1,39 @@
 .section {
   padding: 3rem 0;
-  & > div {
-    display: flex;
-
-    display: flex;
-    gap: 2%;
-    align-items: center;
-  }
-  p {
-    text-align: center;
-    margin-top: 1rem;
-  }
-}
-.header {
-  width: 30%;
-  margin-left: auto;
-  // padding: 6rem 3rem 6rem 0;
-  padding: 3rem;
-  svg {
-    height: 72px;
-    width: 72px;
-    // fill: #f4b442;
-  }
-  h2 {
-    margin: 1.5rem 0 2.5rem;
-    font-size: 2.8rem;
-  }
-  p {
-    line-height: 2.8rem;
-    margin-bottom: 3rem;
-  }
 }
 
-.card {
-  // width: 33.33%;
-  width: 50%;
-  margin-right: auto;
-  position: relative;
+.tution {
   display: flex;
-  flex-direction: column;
-  border-radius: 5px;
-  padding: 2rem;
-  background: #fff;
-  //box-shadow: 0 10px 40px rgba(12, 29, 74, 0.08);
+  align-items: center;
+}
+
+.fee_container {
+  width: 70%;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.fee {
+  display: flex;
+  height: fit-content;
+
   h3 {
-    padding: 1rem;
-    // border-bottom: 3px solid #ffb013;
-    font-size: 2rem;
-    color: #000;
-    &:after {
-      margin-top: 1.5rem;
-      content: "";
-      display: block;
-      width: 40%;
-      border-bottom: 4px solid #ffb013;
-    }
+    padding: 1rem 2rem;
+    display: flex;
+    background-color: #eff1f4;
   }
+  h4 {
+    padding: 1rem 2rem;
+    background-color: #f3b041;
+  }
+}
+
+.accomodation {
+  display: flex;
+  flex-wrap: wrap;
   ul {
+    width: 70%;
     margin: 1rem 0;
     li {
       line-height: 2.4rem;
@@ -68,16 +45,37 @@
         background-color: #f6f8fb;
       }
     }
+    p {
+      padding: 2rem;
+      line-height: 2;
+    }
   }
+}
 
-  a {
-    margin: auto 0 0;
-    padding: 1rem 2.5rem;
-    line-height: auto;
-    text-align: center;
-    height: auto;
-    line-height: 3rem;
-    border-radius: 3px;
+.header {
+  width: 30%;
+  padding: 3rem;
+  display: flex;
+
+  svg {
+    height: 48px;
+    width: 48px;
+    margin-right: 2rem;
+    &::before {
+      content: "";
+      display: block;
+      height: 25%;
+      padding-left: 1rem;
+      border-left: 4px solid #ffb013;
+    }
+  }
+  h2 {
+    margin: 1rem 0;
+    font-size: 2.2rem;
+  }
+  p {
+    line-height: 2.2rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -95,21 +93,35 @@
       margin-top: 0;
     }
   }
+  .tution {
+    flex-direction: column;
+  }
+  .fee_container {
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+  }
+  .fee {
+    h3 {
+      font-size: 1.4rem;
+      width: 65%;
+    }
+    h4 {
+      width: 35%;
+      font-size: 1.2rem;
+    }
+  }
+  .accomodation {
+    margin-top: 2rem;
+    ul {
+      width: 100%;
+    }
+  }
   .header {
     padding: 1rem 2rem;
     width: 100%;
     h2 {
       font-size: 2.4rem;
-    }
-  }
-  .card {
-    width: 100%;
-    padding: 1rem;
-    ul {
-      margin: 0;
-      li {
-        padding: 1.25rem 2rem;
-      }
     }
   }
 }
