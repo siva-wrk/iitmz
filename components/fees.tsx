@@ -26,7 +26,7 @@ export default function Fees() {
         <div className={styles.accomodation}>
           <div className={styles.header}>
             <RiHotelBedFill />
-            <h2>Accomodation Fee</h2>
+            <h2>Accommodation Fee</h2>
           </div>
 
           <ul>
