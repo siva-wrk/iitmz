@@ -26,14 +26,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Script src="https://www.googletagmanager.com/gtag/js?id=GTM-N9TVCHGQ" />
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-W83G8RX3YK" />
       <Script id="google-analytics">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
-          gtag('config', 'GTM-N9TVCHGQ');
+          gtag('config', 'G-W83G8RX3YK');
         `}
       </Script>
       <body className={`${lato.className}${raleway.className}`}>
