@@ -1,9 +1,11 @@
+import { Suspense } from "react";
 import "@/styles/globals.css";
 import { Lato, Raleway } from "next/font/google";
 import Header from "@/components/header";
 // import Footer from "@/components/footer";
 import AdmissionWidget from "@/components/admission-widget";
 import Script from "next/script";
+import Analytics from "@/components/analytics";
 
 const lato = Lato({
   weight: ["100", "400", "700"],
@@ -30,21 +32,14 @@ export default function RootLayout({
         name="google-site-verification"
         content="5JWgn4gCT2PCaGMgbVSrlk_1EWzg5HkMu7Li-NsQO_Q"
       />
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-W83G8RX3YK" />
-      <Script id="google-analytics">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
- 
-          gtag('config', 'G-W83G8RX3YK');
-        `}
-      </Script>
       <body className={`${lato.className}${raleway.className}`}>
         <Header />
         {children}
         {/* <Footer /> */}
         <AdmissionWidget />
+        <Suspense>
+          <Analytics />
+        </Suspense>
       </body>
     </html>
   );
