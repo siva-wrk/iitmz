@@ -48,7 +48,7 @@ export default function FacultyPage({ params }: { params: { slug: string } }) {
           <div className={styles.qualification}>
             <h2>Education Qualification</h2>
             {facultyMember.qualification.map((qualification) => (
-              <div>
+              <div key={qualification.title}>
                 <h3>
                   {qualification.title} <span>{qualification.year}</span>
                 </h3>
@@ -4591,14 +4591,14 @@ export default function FacultyPage({ params }: { params: { slug: string } }) {
           <div className={styles.papers}>
             <h2>Selected Papers</h2>
             {facultyMember.papers.map((paper) => (
-              <div className={styles.paper}>
+              <div className={styles.paper} key={paper.title}>
                 <h4>
                   <AiTwotoneCalendar /> {paper.year}
                 </h4>
                 <h3>{paper.title}</h3>
                 <div className={styles.authors}>
                   {paper.authors.map((author) => (
-                    <p>
+                    <p key={author}>
                       <FaUserEdit /> {author}
                     </p>
                   ))}

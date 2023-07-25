@@ -81,7 +81,7 @@ export default function AcademicsPage() {
           <h2 className="section-title center line">Faculty</h2>
           <div>
             {faculty.map((facultyMember) => (
-              <div className={styles.card}>
+              <div className={styles.card} key={facultyMember.slug}>
                 <Img
                   src={facultyMember.img}
                   alt={`Photo of ${facultyMember.name}`}
