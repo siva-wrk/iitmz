@@ -1,0 +1,154 @@
+.section {
+  padding: 3rem 0;
+  & > div {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 4px;
+  }
+}
+
+.profile {
+  width: 25%;
+  //background: #c32939;
+  //box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  padding: 4rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+  }
+
+  & > h1,
+  & > h3 {
+    text-align: center;
+    margin-bottom: 0.25rem;
+  }
+
+  & > h3 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+
+  p {
+    display: flex;
+    align-items: center;
+    line-height: 1.6;
+    svg {
+      margin-right: 0.5rem;
+      flex-shrink: 0;
+    }
+  }
+}
+
+.website {
+  font-size: 1.2rem;
+}
+
+.qualification {
+  margin: 3rem 0 0;
+  & > div {
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+  h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.main {
+  width: 75%;
+  padding: 3rem;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+  & > div {
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+.interests {
+  p {
+    font-size: 1.6rem;
+  }
+}
+
+.papers {
+  & > div {
+    border: 1.5px solid #edeef2;
+    border-radius: 7px;
+    padding: 1rem 2rem;
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.paper {
+  > * {
+    &:not(:last-child) {
+      margin-bottom: 0.7rem;
+    }
+  }
+  h4 {
+    color: #f4b442;
+  }
+  h3 {
+    margin-bottom: 1.25rem !important;
+  }
+}
+
+.authors {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+  row-gap: 0;
+  p {
+    flex-shrink: 0;
+    margin: 0;
+    svg {
+      margin-right: 0.15rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 0;
+    & > div {
+      flex-direction: column;
+    }
+  }
+  .profile {
+    width: 100%;
+    align-items: flex-start;
+    padding: 2rem;
+    img {
+      margin: 2rem auto 4rem;
+    }
+    & > h1,
+    h3 {
+      margin: 0 auto;
+    }
+    & > h3 {
+      margin: 0 auto 2rem;
+    }
+  }
+  .main {
+    width: 100%;
+    padding: 1rem;
+  }
+  .interests {
+    padding: 0 1rem;
+  }
+}
