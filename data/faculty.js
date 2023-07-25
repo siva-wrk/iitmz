@@ -34,13 +34,6 @@ const faculty = [
     papers: [
       {
         title:
-          "Model-Free Control Design for Feedback-Linearizable SISO Systems",
-        authors: ["K Shenoy", "A Saradagi", "R Pasumarthy", "V Chellaboina"],
-        publisher: "arXiv preprint",
-        year: "2023",
-      },
-      {
-        title:
           "End-to-end Autonomous Driving in Heterogeneous Traffic Scenario Using Deep Reinforcement Learning",
         authors: ["S Chakraborty", "S Kumar", "N Bhatt", " R Pasumarthy"],
         publisher: "European Control Conference ",
@@ -59,6 +52,27 @@ const faculty = [
         authors: ["MS Singh", "R Pasumarthy", "U Vaidya", "S Leonhardt"],
         publisher: "Scientific Reports",
         year: "2023",
+      },
+      {
+        title:
+          "Data-driven event-triggered control for discrete-time LTI systems, European Control Conference",
+        authors: ["V Digge", "R Pasumarthy"],
+        publisher: "European Control Conference",
+        year: "2022",
+      },
+      {
+        title:
+          "Dynamic causal brain circuits during working memory and their functional controllability,",
+        authors: ["W Cai", "S Ryali", "R Pasumarthy", "V Talasila", "V Menon"],
+        publisher: "Nature Communications",
+        year: "2021",
+      },
+      {
+        title:
+          "Event-Triggered Control Design for Systems With Exogenous Inputs: Application for Auto-Scaling of Cloud-Hosted Web Servers, IEEE Transactions on Systems, Man, and Cybernetics,",
+        authors: ["D Singh", "K Dwarakanath", " R Pasumarthy"],
+        publisher: "Systems",
+        year: "2021",
       },
     ],
   },
