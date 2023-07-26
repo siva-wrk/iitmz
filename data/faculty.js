@@ -426,7 +426,20 @@ const faculty = [
         from: "Indian National Academy of Engineering,",
       },
     ],
-    courses: [],
+    courses: [
+      {
+        title: "Computational Techniques",
+      },
+      {
+        title: "Process Calculations",
+      },
+      {
+        title: "Research Skills",
+      },
+      {
+        title: "Let’s Play to Learn",
+      },
+    ],
     papers: [
       {
         title:
