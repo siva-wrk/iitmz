@@ -248,10 +248,11 @@ const faculty = [
     slug: "prof-raghunathan-rengaswamy",
     name: "Prof. Raghunathan Rengaswamy",
     img: "/raghunathan-1.jpg",
-    title: "Chair Professor, Chemical Engg",
+    title:
+      "Marti Mannariah Gurunath Chair in Department of Chemical Engineering, IIT Madras",
     desc: "",
     interests:
-      "My research Area’s are Reinforcement Learning, Big Data Process Analytics, Machine Learning & Big Data.",
+      "My research areas are Reinforcement Learning, Big Data Process Analytics, Machine Learning & Big Data.",
     contact: {
       email: "raghur@iitm.ac.in",
       website: "ibse.iitm.ac.in/people/raghunathan-rengaswamy/",
@@ -259,7 +260,7 @@ const faculty = [
     awards: [
       {
         title: "YBG Varma Award for Excellence in Teaching",
-        from: "IIT Madras",
+        from: "IIT Madras, India",
       },
       {
         title: "Fellow",
@@ -267,20 +268,20 @@ const faculty = [
       },
       {
         title: "Graham Faculty Research Award",
-        from: "Clarkson University",
+        from: "Clarkson University, USA",
       },
       {
         title:
           "Best Paper - Application-oriented paper on Symbolic AI Approaches",
-        from: "IFAC EAAI ",
+        from: "IFAC EAAI",
       },
       {
         title: "Omega Chi Epsilon, Professor of the Year Award",
-        from: " Clarkson University",
+        from: " Clarkson University, USA",
       },
       {
         title: "Young Engineer Award",
-        from: " INAE",
+        from: " Indian National Academy of Engineering",
       },
       {
         title: "David Ross Fellowship",
@@ -292,24 +293,42 @@ const faculty = [
         title: "PhD",
         year: "1995",
         course: "Chemical Engineering",
-        place: "Purdue University,",
+        place: "Purdue University, USA",
       },
       {
         title: "BTech",
         year: "1990",
         course: "Chemical Engineering",
-        place: "IIT Madras",
+        place: "IIT Madras, India",
       },
     ],
     courses: [
       {
-        title: "Mathematical Foundations of Data Science ",
+        title: "Mathematical Foundations of Data Science",
       },
       {
         title: "Modern Control Theory Data Science for Engineers",
       },
+      {
+        title: "Python for Data Science (NPTEL)",
+      },
+      {
+        title: "Data Science for Engineers (NPTEL)",
+      },
     ],
     papers: [
+      {
+        title:
+          "Perovskite‐based electrocatalyst discovery and design using word embeddings from retrained SciBERT language model",
+        authors: [
+          "Arun Muthukkumaran",
+          "Shrayas Raghunathan",
+          "Arjun Ravichandran",
+          "Raghunathan Rengaswamy",
+        ],
+        publisher: "AIChE Journal",
+        year: "2023",
+      },
       {
         title:
           "Data science and IoT based mobile monitoring framework for hyper-local PM2. 5 assessment in urban setting",
@@ -344,13 +363,13 @@ const faculty = [
     ],
     books: [
       {
-        cover: "/process-control-fundamentals.jpg",
+        cover: "/data-science-for-engineers.jpg",
         title: "Data Science for Engineers",
         publisher: "CRC Press",
         year: "2022",
       },
       {
-        cover: "/data-science-for-engineers.jpg",
+        cover: "/process-control-fundamentals.jpg",
         title: "Process Control Fundamentals",
         publisher: "CRC Press",
         year: "2020",
@@ -364,7 +383,7 @@ const faculty = [
     title: "Professor, Chemical Engg",
     desc: "",
     interests:
-      "My interest areas include Underground Coal Gasification, Reduction of Automotive NOx, Reduction of Large Reaction Mechanisms, Reactor Modeling",
+      "My interest areas include Underground Coal Gasification, Reduction of Automotive NOx, Reduction of Large Reaction Mechanisms and Reactor Modeling",
     contact: {
       email: "preeti@iit.ac.in",
       website: "che.iitm.ac.in/preeti/",
@@ -386,7 +405,7 @@ const faculty = [
         title: "B.Tech",
         year: "1991",
         course: "Chemical Engineering",
-        place: "IIT Madras Chennai",
+        place: "IIT Madras, India",
       },
     ],
     awards: [
@@ -456,31 +475,10 @@ const faculty = [
     ],
     books: [
       {
-        cover: "/placeholder.png",
-        title:
-          "Cavity Models for Underground Coal Gasification, Coal and Biomass Gasification",
-        publisher: "Springer",
-        year: "2018",
-      },
-      {
         cover: "/mathematical-modeling-coal-gasification.jpg",
         title: "Mathematical Modeling for Underground Coal Gasification",
         publisher: "Momentum Press",
         year: "2017",
-      },
-      {
-        cover: "/placeholder.png",
-        title:
-          "Underground coal gasification: a clean coal technology, Handbook of Combustion",
-        publisher: "Wiley‐VCH Verlag GmbH & Co",
-        year: "2010",
-      },
-      {
-        cover: "/placeholder.png",
-        title:
-          "Partial oxidation of light alkanes in short contact time microreactors",
-        publisher: "Catalysis",
-        year: "2000",
       },
     ],
   },
