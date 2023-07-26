@@ -86,7 +86,7 @@ export default function FacultyPage({ params }: { params: { slug: string } }) {
               <h2>Relevant Courses Taught</h2>
               <ul>
                 {facultyMember.courses.map((course) => (
-                  <li>{course.title}</li>
+                  <li key={course.title}>{course.title}</li>
                 ))}
               </ul>
             </div>
