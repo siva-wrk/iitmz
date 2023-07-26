@@ -6,9 +6,9 @@
   transition: 0.3s;
   text-decoration: none;
   border-radius: 0 5px 5px 0;
-  transform: rotate(-90deg) translateY(12.25rem);
+  transform: rotate(-90deg) translateY(18.25rem);
   &:hover {
-    transform: rotate(-90deg) translateY(3.5rem);
+    transform: rotate(-90deg) translateY(1.5rem);
   }
   & > button {
     padding: 1rem 1.5rem;
@@ -44,9 +44,9 @@
 
 @media (max-width: 480px) {
   .widget {
-    transform: rotate(-90deg) translateY(12rem);
+    transform: rotate(-90deg) translateY(18rem);
     &:hover {
-      transform: rotate(-90deg) translateY(3rem);
+      transform: rotate(-90deg) translateY(0.5rem);
     }
   }
 }
