@@ -42,9 +42,9 @@ export default function FacultyPage({ params }: { params: { slug: string } }) {
           </p>
           <p className={styles.website}>
             <BsGlobeCentralSouthAsia />
-            <Link target="_blank" href={facultyMember.contact.website}>
+            <a target="_blank" href={facultyMember.contact.website}>
               {facultyMember.contact.website}
-            </Link>
+            </a>
           </p>
           <div className={styles.qualification}>
             <h2>Education Qualification</h2>
