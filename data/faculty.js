@@ -247,7 +247,7 @@ const faculty = [
   {
     slug: "prof-raghunathan-rengaswamy",
     name: "Prof. Raghunathan Rengaswamy",
-    img: "/raghunathan-1.jpg",
+    img: "/raghunathan-alt.webp",
     title:
       "Marti Mannariah Gurunath Chair in Department of Chemical Engineering, IIT Madras",
     desc: "",
@@ -375,6 +375,28 @@ const faculty = [
         year: "2020",
       },
     ],
+    contributions: [
+      {
+        title: "Jury member for GITA Global Technology Development Awards 2021",
+      },
+      {
+        title:
+          "Advisor, CII for their Center of Excellence in Data Science and AI",
+      },
+      {
+        title:
+          "Member, CII International Liaisons Sub-committee, Southern Region",
+      },
+      {
+        title:
+          "Core member, DST-PAC, Chemical and Environmental Engineering 2019-2022",
+      },
+      {
+        title:
+          "Task Force Member, Department of Biotechnology, India 2014 - 2017",
+      },
+      { title: "National Research Council Member, NMRL, Ambernath, India" },
+    ],
   },
   {
     slug: "prof-preeti-aghalayam",
@@ -492,6 +514,16 @@ const faculty = [
         title: "Mathematical Modeling for Underground Coal Gasification",
         publisher: "Momentum Press",
         year: "2017",
+      },
+    ],
+    contributions: [
+      {
+        title: "Board member, IN-SPACe (2020-Present)",
+        link: "https://www.inspace.gov.in/inspace?id=inspace_index",
+      },
+      {
+        title:
+          "Core member, Dept. of Science & Technology, PAC (Chemical & Environmental Engg.) (2019-2022)",
       },
     ],
   },

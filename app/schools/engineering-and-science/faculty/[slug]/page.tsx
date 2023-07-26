@@ -16,6 +16,11 @@ export async function generateStaticParams() {
   }));
 }
 
+interface Contribution {
+  title: string;
+  link?: string;
+}
+
 export default function FacultyPage({ params }: { params: { slug: string } }) {
   const facultyMember = faculty.find(
     (facultyMember) => facultyMember.slug === params.slug
@@ -133,6 +138,26 @@ export default function FacultyPage({ params }: { params: { slug: string } }) {
                     </div>
                   </li>
                 ))}
+              </ul>
+            </div>
+          )}
+          {facultyMember.contributions && (
+            <div className={styles.courses}>
+              <h2>Selected Professional Contributions</h2>
+              <ul>
+                {facultyMember.contributions.map(
+                  (contribution: Contribution) => (
+                    <li key={contribution.title}>
+                      {contribution.link ? (
+                        <a target="_blank" href={contribution.link}>
+                          {contribution.title}
+                        </a>
+                      ) : (
+                        <>{contribution.title}</>
+                      )}
+                    </li>
+                  )
+                )}
               </ul>
             </div>
           )}
