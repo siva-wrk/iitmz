@@ -57,7 +57,7 @@
     width: max-content;
     margin-left: auto;
     h3 {
-      border-radius: 4px 0 0 4px;
+      border-radius: 4px 0 0 0;
       flex-shrink: 0;
       width: max-content;
 
@@ -74,7 +74,7 @@
 .header {
   width: 30%;
   padding: 3rem;
-  display: flex;
+  //display: flex;
 
   svg {
     height: 48px;
@@ -138,6 +138,7 @@
     margin-top: 2rem;
     ul {
       width: 100%;
+      padding: 0 1rem;
     }
     .fee {
       h3 {
