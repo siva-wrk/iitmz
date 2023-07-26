@@ -9,8 +9,15 @@ const faculty = [
       email: "ramkrishna@ee.iitm.ac.in",
       website: "www.ee.iitm.ac.in/ramkrishna/",
     },
+    awards: [
+      {
+        title: "OIA International Research Exploration Fund Award",
+        from: "Stanford University, School of Medicine for research on Functional controllability of Brain circuits.",
+      },
+    ],
     interests:
       "My interests lie in the area of modeling and control of complex physical systems. I also have interests in the area of identification and control of (cloud) computing systems and analysis and control of power, traffic, brain and cloud networks.",
+
     qualification: [
       {
         title: "PhD",
@@ -29,6 +36,17 @@ const faculty = [
         year: "1999",
         course: "Electrical Engineering",
         place: "Bhilai Institute of Technology",
+      },
+    ],
+    courses: [
+      {
+        title: "Mathematical Foundations of Data Science",
+      },
+      {
+        title: "Mathematical Methods in Systems Engineering",
+      },
+      {
+        title: "Data Analytics Laboratory",
       },
     ],
     papers: [
@@ -75,6 +93,15 @@ const faculty = [
         year: "2021",
       },
     ],
+    books: [
+      {
+        cover: "/mathematical-control-theory.jpg",
+        title:
+          "Mathematical Control Theory I: Nonlinear and Hybrid Control Systems",
+        publisher: "Springer",
+        year: "2015",
+      },
+    ],
   },
   {
     slug: "dr-nirav-bhatt",
@@ -88,6 +115,24 @@ const faculty = [
       email: "niravbhatt@iitm.ac.in",
       website: "biotech.iitm.ac.in/faculty/nirav-p-bhatt",
     },
+    awards: [
+      {
+        title: "Best YRS Poster Award",
+        from: "The 5th Joint International Conference on Data Science and Management of Data",
+      },
+      {
+        title: "Best Experimental Paper Award",
+        from: "Indian Control Conference 2022",
+      },
+      {
+        title: "Faculty Fellowship",
+        from: "INSPIRE",
+      },
+      {
+        title: "PhD Fellowship",
+        from: "Swiss National Science Foundation",
+      },
+    ],
     qualification: [
       {
         title: "PhD",
@@ -106,6 +151,20 @@ const faculty = [
         year: "2003",
         course: "Chemical Engineering",
         place: "The M S University of Baroda",
+      },
+    ],
+    courses: [
+      {
+        title: "Mathematical Foundations of Data Science, Bioprocess Control",
+      },
+      {
+        title: "Data-driven Modeling and Optimization of Bioprocesses",
+      },
+      {
+        title: "Data Analysis for Modeling and Monitoring of Reaction Systems",
+      },
+      {
+        title: "Big data in Network Biology",
       },
     ],
     papers: [
@@ -197,6 +256,37 @@ const faculty = [
       email: "raghur@iitm.ac.in",
       website: "ibse.iitm.ac.in/people/raghunathan-rengaswamy/",
     },
+    awards: [
+      {
+        title: "YBG Varma Award for Excellence in Teaching",
+        from: "IIT Madras",
+      },
+      {
+        title: "Fellow",
+        from: "Indian National Academy of Engineering",
+      },
+      {
+        title: "Graham Faculty Research Award",
+        from: "Clarkson University",
+      },
+      {
+        title:
+          "Best Paper - Application-oriented paper on Symbolic AI Approaches",
+        from: "IFAC EAAI ",
+      },
+      {
+        title: "Omega Chi Epsilon, Professor of the Year Award",
+        from: " Clarkson University",
+      },
+      {
+        title: "Young Engineer Award",
+        from: " INAE",
+      },
+      {
+        title: "David Ross Fellowship",
+        from: "Purdue, USA",
+      },
+    ],
     qualification: [
       {
         title: "PhD",
@@ -209,6 +299,14 @@ const faculty = [
         year: "1990",
         course: "Chemical Engineering",
         place: "IIT Madras",
+      },
+    ],
+    courses: [
+      {
+        title: "Mathematical Foundations of Data Science ",
+      },
+      {
+        title: "Modern Control Theory Data Science for Engineers",
       },
     ],
     papers: [
@@ -244,6 +342,20 @@ const faculty = [
         year: "2022",
       },
     ],
+    books: [
+      {
+        cover: "/process-control-fundamentals.jpg",
+        title: "Data Science for Engineers",
+        publisher: "CRC Press",
+        year: "2022",
+      },
+      {
+        cover: "/data-science-for-engineers.jpg",
+        title: "Process Control Fundamentals",
+        publisher: "CRC Press",
+        year: "2020",
+      },
+    ],
   },
   {
     slug: "prof-preeti-aghalayam",
@@ -277,6 +389,25 @@ const faculty = [
         place: "IIT Madras Chennai",
       },
     ],
+    awards: [
+      {
+        title: "Featured in “She Is: 75 Women in STEAM",
+        from: "Office of Principal Scientific Advisor, Govt. of India, 2022 ",
+      },
+      {
+        title: "Amar Dye Chem Award",
+        from: "Indian Institute of Chemical Engineers",
+      },
+      {
+        title: "IIChE Young Achiever Award",
+        from: "Indian Institute of Chemical Engineers",
+      },
+      {
+        title: "INAE Young Engineer",
+        from: "Indian National Academy of Engineering,",
+      },
+    ],
+    courses: [],
     papers: [
       {
         title:
@@ -323,6 +454,35 @@ const faculty = [
         year: 2022,
       },
     ],
+    books: [
+      {
+        cover: "/placeholder.png",
+        title:
+          "Cavity Models for Underground Coal Gasification, Coal and Biomass Gasification",
+        publisher: "Springer",
+        year: "2018",
+      },
+      {
+        cover: "/mathematical-modeling-coal-gasification.jpg",
+        title: "Mathematical Modeling for Underground Coal Gasification",
+        publisher: "Momentum Press",
+        year: "2017",
+      },
+      {
+        cover: "/placeholder.png",
+        title:
+          "Underground coal gasification: a clean coal technology, Handbook of Combustion",
+        publisher: "Wiley‐VCH Verlag GmbH & Co",
+        year: "2010",
+      },
+      {
+        cover: "/placeholder.png",
+        title:
+          "Partial oxidation of light alkanes in short contact time microreactors",
+        publisher: "Catalysis",
+        year: "2000",
+      },
+    ],
   },
   {
     slug: "prof-ligy-philip",
@@ -356,6 +516,7 @@ const faculty = [
         place: "M.G.University Kottayam",
       },
     ],
+    courses: [],
     papers: [
       {
         title:
@@ -384,6 +545,16 @@ const faculty = [
         authors: ["Manthiram Karthik Ravichandran", "Ligy Philip"],
         publisher: "Science of the Total Environment,",
         year: 2022,
+      },
+    ],
+    awards: [
+      {
+        title: "Fellow",
+        from: "Royal Society of Chemistry",
+      },
+      {
+        title: "Fellow",
+        from: "National Academy of Engineers",
       },
     ],
   },
