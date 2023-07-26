@@ -29,6 +29,7 @@ const navMenu = [
   { title: "In Media", link: "/media/" },
   { title: "Testimonials", link: "/testimonials/" },
   { title: "Campus Life", link: "/campus-life/" },
+  { title: "Financial Aid", link: "/financial-aid/" },
   { title: "Admissions", link: "/admission/" },
 ];
 
