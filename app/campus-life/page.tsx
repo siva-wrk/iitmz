@@ -1,5 +1,6 @@
 import styles from "./page.module.scss";
 import Img from "@/components/image";
+import Link from "next/link";
 
 export default function CampusLife() {
   return (
@@ -17,32 +18,42 @@ export default function CampusLife() {
             can thrive academically, socially, and personally.
           </p>
           <p>
-            Nurturing Student Growth and Empowering Success: Fostering an
-            Engaging and Inclusive Campus Environment at IITM Zanzibar
+            The infrastructure at IIT Madras Zanzibar will comprise of four, 70
+            seater classrooms and five, 30 seater classrooms. There will be
+            three labs for - IT, Chemistry and Physics which will cater to the
+            first batch of students at IITM Zanzibar. There will be hostels for
+            70 students, a dining hall, a multipurpose store, a smart seminar
+            hall and an auditorium.
           </p>
         </div>
         <div className={styles.images}>
-          <Img
-            width={200}
-            height={180}
-            src="/hero4.jpg"
-            alt=""
-            loading="eager"
-          />
-          <Img
-            width={200}
-            height={360}
-            src="/campus3.jpeg"
-            alt=""
-            loading="eager"
-          />
-          <Img
-            width={200}
-            height={180}
-            src="/campus2.jpg"
-            alt=""
-            loading="eager"
-          />
+          <Link target="_blank" href="/layout-ground-floor.webp">
+            <Img
+              width={200}
+              height={180}
+              src="/layout-ground-floor.webp"
+              alt=""
+              loading="eager"
+            />
+          </Link>
+          <Link target="_blank" href="/layout-gate.webp">
+            <Img
+              width={200}
+              height={360}
+              src="/layout-gate.webp"
+              alt=""
+              loading="eager"
+            />
+          </Link>
+          <Link target="_blank" href="/layout-furniture.webp">
+            <Img
+              width={200}
+              height={180}
+              src="/layout-furniture.webp"
+              alt=""
+              loading="eager"
+            />
+          </Link>
         </div>
       </div>
     </section>
