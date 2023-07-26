@@ -259,6 +259,11 @@ const faculty = [
     },
     awards: [
       {
+        title: "Institute Chair Professor",
+        from: "IIT Madras, India",
+      },
+
+      {
         title: "YBG Varma Award for Excellence in Teaching",
         from: "IIT Madras, India",
       },
