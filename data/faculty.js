@@ -7,7 +7,7 @@ const faculty = [
     desc: "",
     contact: {
       email: "ramkrishna@ee.iitm.ac.in",
-      website: "www.ee.iitm.ac.in/ramkrishna/",
+      website: "https://www.ee.iitm.ac.in/ramkrishna/",
     },
     awards: [
       {
@@ -102,6 +102,18 @@ const faculty = [
         year: "2015",
       },
     ],
+    contributions: [
+      {
+        title: "Coordinator, SWAYAM - NPTEL",
+      },
+      {
+        title:
+          "Associate Editor, SAE International Journal Of Connected And Automated Vehicles.",
+      },
+      {
+        title: "Vice President, Control Society (India).",
+      },
+    ],
   },
   {
     slug: "dr-nirav-bhatt",
@@ -113,7 +125,7 @@ const faculty = [
       "In my research, I explore biological and disease networks using multi-sensor and multi-scale data. I focus on modeling, control, optimization, and integration of (Bio-)process Manufacturing to enhance efficiency. I also investigate bioprocess control and process analytical technology for quality assurance. Additionally, I study complex man-made networks through data-driven learning and control approaches. My goal is to advance understanding and management of these networks.",
     contact: {
       email: "niravbhatt@iitm.ac.in",
-      website: "biotech.iitm.ac.in/faculty/nirav-p-bhatt",
+      website: "https://biotech.iitm.ac.in/faculty/nirav-p-bhatt",
     },
     awards: [
       {
@@ -255,7 +267,7 @@ const faculty = [
       "My research areas are Reinforcement Learning, Big Data Process Analytics, Machine Learning & Big Data.",
     contact: {
       email: "raghur@iitm.ac.in",
-      website: "ibse.iitm.ac.in/people/raghunathan-rengaswamy/",
+      website: "https://ibse.iitm.ac.in/people/raghunathan-rengaswamy/",
     },
     awards: [
       {
@@ -413,7 +425,7 @@ const faculty = [
       "My interest areas include Underground Coal Gasification, Reduction of Automotive NOx, Reduction of Large Reaction Mechanisms and Reactor Modeling",
     contact: {
       email: "preeti@iitm.ac.in",
-      website: "che.iitm.ac.in/preeti/",
+      website: "https://che.iitm.ac.in/preeti/",
     },
     qualification: [
       {
@@ -542,7 +554,7 @@ const faculty = [
       "My Research interests lie in the fields of water treatment and rural water supply. I am particularly drawn to domestic and industrial wastewater treatment, with a strong focus on wastewater reuse and recycling. Additionally, I am fascinated by the concept of bioremediation, especially in regards to contaminated soils, air, and water containing heavy metals, pesticides, and other hazardous organic compounds. ",
     contact: {
       email: "ligy@iitm.ac.in",
-      website: "civil.iitm.ac.in/faculty/ligy/",
+      website: "https://civil.iitm.ac.in/faculty/ligy/",
     },
     qualification: [
       {
