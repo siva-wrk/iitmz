@@ -150,7 +150,7 @@ export default function FacultyPage({ params }: { params: { slug: string } }) {
                     <li key={contribution.title}>
                       {contribution.link ? (
                         <a target="_blank" href={contribution.link}>
-                          {contribution.title}
+                          {contribution.title} <span>[Link]</span>
                         </a>
                       ) : (
                         <>{contribution.title}</>

@@ -312,7 +312,7 @@ const faculty = [
         title: "Mathematical Foundations of Data Science",
       },
       {
-        title: "Modern Control Theory Data Science for Engineers",
+        title: "Modern Control Theory",
       },
       {
         title: "Python for Data Science (NPTEL)",
@@ -412,7 +412,7 @@ const faculty = [
     interests:
       "My interest areas include Underground Coal Gasification, Reduction of Automotive NOx, Reduction of Large Reaction Mechanisms and Reactor Modeling",
     contact: {
-      email: "preeti@iit.ac.in",
+      email: "preeti@iitm.ac.in",
       website: "che.iitm.ac.in/preeti/",
     },
     qualification: [
