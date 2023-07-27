@@ -1,16 +1,14 @@
 .widget {
   position: fixed;
-  display: flex;
-  align-items: center;
   z-index: 10;
   top: 40%;
   right: 0;
   transition: 0.3s;
   text-decoration: none;
   border-radius: 0 5px 5px 0;
-  transform: translateX(14.5rem);
+  transform: rotate(-90deg) translateY(18.25rem);
   &:hover {
-    transform: translateX(1rem);
+    transform: rotate(-90deg) translateY(1.5rem);
   }
   & > button {
     padding: 1rem 1.5rem;
@@ -24,7 +22,6 @@
     border-top-left-radius: 10px;
     color: #fff;
     text-decoration: none;
-    transform: rotate(270deg) translateY(10.1rem);
   }
   .content {
     background: #fff;
@@ -47,13 +44,9 @@
 
 @media (max-width: 480px) {
   .widget {
-    transform: translateX(13rem);
+    transform: rotate(-90deg) translateY(18rem);
     &:hover {
-      transform: translateX(1rem);
-    }
-    & > button {
-      padding: 1rem 2rem;
-      transform: rotate(270deg) translateY(11rem);
+      transform: rotate(-90deg) translateY(0.5rem);
     }
   }
 }
