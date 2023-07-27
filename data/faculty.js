@@ -255,6 +255,14 @@ const faculty = [
         year: "2017",
       },
     ],
+    books: [
+      {
+        cover: "/process-control-fundamentals.jpg",
+        title: "Process Control Fundamentals",
+        publisher: "CRC Press",
+        year: "2020",
+      },
+    ],
   },
   {
     slug: "prof-raghunathan-rengaswamy",
