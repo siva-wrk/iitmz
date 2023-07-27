@@ -8,22 +8,23 @@ export default function CampusLife() {
       <div className="container">
         <div className={styles.content}>
           <h2>
-            Discover <br /> Our University <span>.</span>
+            Discover <br /> Our Campus <span>.</span>
           </h2>
           <p>
             At IITM Zanzibar, campus life is an integral part of the educational
             experience. Our stimulating environment encourages personal growth,
-            community, and exploration. With diverse clubs, sports facilities,
-            cultural events, support services, and a serene atmosphere, students
-            can thrive academically, socially, and personally.
+            community, and exploration. With diverse student clubs, sports
+            facilities, cultural events, support services, and a serene
+            atmosphere, students can thrive academically, socially, and
+            personally.
           </p>
           <p>
-            The infrastructure at IIT Madras Zanzibar will comprise of four, 70
-            seater classrooms and five, 30 seater classrooms. There will be
-            three labs for - IT, Chemistry and Physics which will cater to the
-            first batch of students at IITM Zanzibar. There will be hostels for
-            70 students, a dining hall, a multipurpose store, a smart seminar
-            hall and an auditorium.
+            The IIT Madras Zanzibar campus will comprise four large classrooms
+            and several smaller classrooms. Laboratory spaces will cater to the
+            needs of the students, and include computers, physics and chemistry.
+            Students will be accommodated on campus in hostel (dorm) rooms and
+            have access to a dining hall, a multipurpose store, a smart seminar
+            hall and an auditorium as well.
           </p>
         </div>
         <div className={styles.images}>
