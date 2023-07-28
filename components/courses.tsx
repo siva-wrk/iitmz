@@ -31,7 +31,7 @@ export default function Courses({ layout = "HORIZONTAL" }: CoursesProps) {
         height={190}
       />
       <div className="container">
-        <h2 className="section-title center line">Academic Courses</h2>
+        <h2 className="section-title center line">Academic Programs</h2>
         <div className={styles.grid}>
           <div className={styles.item}>
             <Img

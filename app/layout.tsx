@@ -34,6 +34,7 @@ export default function RootLayout({
       />
       <body className={`${lato.className}${raleway.className}`}>
         <Header />
+
         {children}
         {/* <Footer /> */}
         <AdmissionWidget />

@@ -39,6 +39,7 @@ export default function FacultyPage({ params }: { params: { slug: string } }) {
 
           <h1>{facultyMember.name}</h1>
           <h3>{facultyMember.title}</h3>
+          {facultyMember.titlesec && <h3>{facultyMember.titlesec}</h3>}
           <p>
             <AiOutlineMail />
             <Link href={`mailto:${facultyMember.contact.email}`}>
@@ -52,7 +53,7 @@ export default function FacultyPage({ params }: { params: { slug: string } }) {
             </a>
           </p>
           <div className={styles.qualification}>
-            <h2>Education Qualification</h2>
+            <h2>Education Qualifications</h2>
             {facultyMember.qualification.map((qualification) => (
               <div key={qualification.title}>
                 <h3>

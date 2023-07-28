@@ -267,7 +267,7 @@ const faculty = [
   {
     slug: "prof-raghunathan-rengaswamy",
     name: "Prof. Raghunathan Rengaswamy",
-    img: "/raghunathan-alt.webp",
+    img: "/prof-raghu.jpg",
     title:
       "Marti Mannariah Gurunath Chair in Department of Chemical Engineering, IIT Madras",
     desc: "",
@@ -427,7 +427,8 @@ const faculty = [
     slug: "prof-preeti-aghalayam",
     name: "Prof Preeti Aghalayam",
     img: "/preeti-a.jpg",
-    title: "Professor, Chemical Engg",
+    title: "Dean",
+    titlesec: "Director-in-charge",
     desc: "",
     interests:
       "My interest areas include Underground Coal Gasification, Reduction of Automotive NOx, Reduction of Large Reaction Mechanisms and Reactor Modeling",
@@ -613,7 +614,7 @@ const faculty = [
     papers: [
       {
         title:
-          "Decomposition of denominator formulae of some BKM Lie superalgebras - II",
+          "sl(2)ˆ Decomposition of denominator formulae of some BKM Lie superalgebras - II",
         authors: ["Suresh Govindarajan", "Mohammad Shabbir"],
         publisher: "Nucl.Phys.B 989",
         year: 2023,
@@ -682,7 +683,8 @@ const faculty = [
       {
         title: "On a square-ice analogue of plane partitions",
         authors: ["Suresh Govindarajan", "A. Guttmann", "Varsha Subramanyan"],
-        publisher: "arXiv:1607.01890",
+        publisher:
+          "Ann. Inst. Henri Poincaré Comb. Phys. Interact. 6 (2019), no. 1, pp. 123–154",
         year: 2019,
       },
       {
@@ -692,12 +694,26 @@ const faculty = [
         year: 2019,
       },
     ],
+    contributions: [
+      {
+        title:
+          "Member, DST Planning Committee for SERC Schools in Theoretical High Energy Physics (around 2002-2007)",
+      },
+      {
+        title: "External Member, Senate IIT Palakkad (2019-2021)",
+      },
+      {
+        title:
+          "Started the Partitions Project to foster undergraduate research at IIT Madras",
+        link: "https://boltzmann.wikidot.com/the-partitions-project",
+      },
+    ],
   },
   {
     slug: "prof-ligy-philip",
     name: "Prof Ligy Philip",
     img: "/ligy-1.png",
-    title: "Professor, Civil Engg",
+    title: "Professor-in-charge (Infrastructure)",
     desc: "",
     interests:
       "My Research interests lie in the fields of water treatment and rural water supply. I am particularly drawn to domestic and industrial wastewater treatment, with a strong focus on wastewater reuse and recycling. Additionally, I am fascinated by the concept of bioremediation, especially in regards to contaminated soils, air, and water containing heavy metals, pesticides, and other hazardous organic compounds. ",

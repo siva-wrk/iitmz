@@ -58,7 +58,7 @@ export default function AdvisoryCouncil() {
         <div className={styles.card}>
           <h3>Chaired By</h3>
           <Img
-            src="/raghunathan-1.jpg"
+            src="/prof-raghu.jpg"
             alt="Picture of Chair Raghunathan Rengaswamy"
             width={185}
             height={185}

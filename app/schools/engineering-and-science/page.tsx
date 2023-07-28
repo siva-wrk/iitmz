@@ -90,6 +90,7 @@ export default function AcademicsPage() {
                 />
                 <h3>{facultyMember.name}</h3>
                 <h4>{facultyMember.title}</h4>
+                {facultyMember.titlesec && <h4>{facultyMember.titlesec}</h4>}
                 <Link
                   href={`/schools/engineering-and-science/faculty/${facultyMember.slug}`}
                 >

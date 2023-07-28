@@ -2,6 +2,7 @@ import styles from "./admission-header.module.scss";
 import Img from "./image";
 import { Tabs, TabButton, TabPanel } from "./tabs";
 import ApplyDropdown from "./apply-dropdown";
+import Link from "next/link";
 
 export default function AdmissionHeader() {
   return (
@@ -52,7 +53,11 @@ export default function AdmissionHeader() {
                   inspire students to achieve their full potential, fostering a
                   dynamic learning environment. With a commitment to excellence
                   in teaching and research, the acclaimed faculty at IITM plays
-                  a pivotal role in shaping future leaders and innovators.
+                  a pivotal role in shaping future leaders and innovators. Know
+                  more about the IITM Zanzibar faculty at this page{" "}
+                  <Link href="/schools/engineering-and-science#faculty">
+                    [Link here]
+                  </Link>
                 </p>
               </TabPanel>
             </div>
