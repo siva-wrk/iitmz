@@ -16,5 +16,6 @@ type YoutubePlayerProps = {
 
 export default async function YoutubePlayer({ id }: YoutubePlayerProps) {
   const previewImage = await fetchPreviewImage(id);
-  return <VideoPlayer id={id} previewImage={previewImage} />;
+  const url = `https://www.youtube.com/watch?v=${id}`;
+  return <VideoPlayer url={url} previewImage={previewImage} />;
 }

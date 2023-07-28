@@ -1,77 +1,68 @@
 import styles from "./fees.module.scss";
-import { CiMoneyCheck1 } from "react-icons/ci";
-import { SlGraduation } from "react-icons/sl";
+import { GiGraduateCap } from "react-icons/gi";
+import { LuBedDouble } from "react-icons/lu";
+import { RiHotelBedFill } from "react-icons/ri";
 
 export default function Fees() {
   return (
     <section className={styles.section}>
       <div className="container">
-        <div className={styles.header}>
-          <CiMoneyCheck1 />
-          <h2>Fees & Scholarships</h2>
-          {/* <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p> */}
-          {/* <a className="edo-theme-btn" href="#">
-            View In Detail
-          </a> */}
+        <div className={styles.tution}>
+          <div className={styles.header}>
+            <GiGraduateCap />
+            <h2>Tution Fee</h2>
+          </div>
+          <div className={styles.fee_container}>
+            <div className={styles.fee}>
+              <h3>BS in Data Science & AI</h3>
+              <h4>USD 12000 / p.a.</h4>
+            </div>
+            <div className={styles.fee}>
+              <h3>MTech in Data Science & AI</h3>
+              <h4>USD 4000 / p.a.</h4>
+            </div>
+          </div>
         </div>
+        <div className={styles.accomodation}>
+          <div className={styles.header}>
+            <RiHotelBedFill />
+            <h2>Accommodation Fee</h2>
+          </div>
 
-        <div className={styles.card}>
           <ul>
+            <div className={styles.fee}>
+              <h3>Total</h3>
+              <h4>USD 4000 / p.a.</h4>
+            </div>
             <li>
-              Bachelor of Science (DS & AI): USD 12000 per year* + Accommodation
-              costs additional
+              Hostel Admission Fee: <span>USD 100</span>
             </li>
             <li>
-              MTech (DS & AI): USD 4000 per year* + Accommodation costs
-              additional
+              Dining Charges:<span>USD 1800</span>
             </li>
             <li>
+              Hostel Rent:<span>USD 1500</span>
+            </li>
+            <li>
+              Amenities Charges Wi-fi, Laundry and other Incidentals
+              <span>USD 350</span>
+            </li>
+            <li>
+              Fees for Sports and other Facilities
+              <span>USD 150</span>
+            </li>
+            <li>
+              Student Wellness Fee
+              <span>USD 100</span>
+            </li>
+
+            <p>
               Qualifying students will be eligible for attractive scholarships
-              which will include tuition breaks. <br />* Tuition fee waiver up
-              to 80% will be available for meritorious candidates
-            </li>
+              which will include tuition breaks. * Tuition fee waiver up to 80%
+              will be available for meritorious candidates
+            </p>
           </ul>
-          {/* <a
-            className="edo-course-sec-btn"
-            href="https://admissions.ge.iitm.ac.in"
-          >
-            Apply now
-          </a> */}
         </div>
-        {/* <div className={styles.card}>
-          <h3>M.Tech in Data Science & AI</h3>
-          <ul>
-            <li>
-              Admission Fee: <span>$500</span>
-            </li>
-            <li>
-              Semester I: <span>$2000</span>
-            </li>
-            <li>
-              Semester II: <span>$2000</span>
-            </li>
-            <li>
-              Semester III: <span>$2000</span>
-            </li>
-            <li>
-              Semester IV: <span>$2000</span>
-            </li>
-            <li>
-              Medical Insurance: <span>$300</span>
-            </li>
-          </ul>
-          <a
-            className="edo-course-sec-btn"
-            href="https://admissions.ge.iitm.ac.in"
-          >
-            Apply now
-          </a>
-        </div> */}
       </div>
     </section>
   );

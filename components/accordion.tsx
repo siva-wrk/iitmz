@@ -17,6 +17,10 @@ const Accordion = ({ children }: { children: ReactNode }) => {
     <ReactAccordion
       transition
       transitionTimeout={250}
+      onStateChange={({ key: item, current: { status } }) => {
+        if (status === "entered")
+          (item as any).scrollIntoView({ behavior: "smooth" });
+      }}
       className={styles.accordion}
     >
       {children}
@@ -36,6 +40,9 @@ const AccordionItem = ({ children, ...props }: AccordionItemProps) => {
         </div>
       )}
       {...props}
+      buttonProps={{
+        className: ({ isEnter }) => `${isEnter && styles.itemBtnExpanded}`,
+      }}
     >
       <div className={styles.body}>{body}</div>
     </ReactAccordionItem>

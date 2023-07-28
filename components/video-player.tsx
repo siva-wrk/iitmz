@@ -5,16 +5,16 @@ import Image from "next/image";
 import styles from "./video-player.module.scss";
 
 type VideoPlayerProps = {
-  id: string;
+  url: string;
   previewImage: string;
 };
 
-export default function VideoPlayer({ id, previewImage }: VideoPlayerProps) {
+export default function VideoPlayer({ url, previewImage }: VideoPlayerProps) {
   const [previewLoaded, setPreviewLoaded] = useState(false);
   return (
     <div className={!previewLoaded ? styles.skelton : styles.bg}>
       <ReactPlayer
-        url={`https://www.youtube.com/watch?v=${id}`}
+        url={url}
         light={
           <Image
             src={`data:image/png;base64,${previewImage}`}

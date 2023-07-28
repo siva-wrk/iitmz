@@ -1,5 +1,6 @@
 import styles from "./page.module.scss";
 import Img from "@/components/image";
+import Link from "next/link";
 
 export default function CampusLife() {
   return (
@@ -7,42 +8,53 @@ export default function CampusLife() {
       <div className="container">
         <div className={styles.content}>
           <h2>
-            Discover <br /> Our University <span>.</span>
+            Discover <br /> Our Campus <span>.</span>
           </h2>
           <p>
             At IITM Zanzibar, campus life is an integral part of the educational
             experience. Our stimulating environment encourages personal growth,
-            community, and exploration. With diverse clubs, sports facilities,
-            cultural events, support services, and a serene atmosphere, students
-            can thrive academically, socially, and personally.
+            community, and exploration. With diverse student clubs, sports
+            facilities, cultural events, support services, and a serene
+            atmosphere, students can thrive academically, socially, and
+            personally.
           </p>
           <p>
-            Nurturing Student Growth and Empowering Success: Fostering an
-            Engaging and Inclusive Campus Environment at IITM Zanzibar
+            The IIT Madras Zanzibar campus will comprise four large classrooms
+            and several smaller classrooms. Laboratory spaces will cater to the
+            needs of the students, and include computers, physics and chemistry.
+            Students will be accommodated on campus in hostel (dorm) rooms and
+            have access to a dining hall, a multipurpose store, a smart seminar
+            hall and an auditorium as well.
           </p>
         </div>
         <div className={styles.images}>
-          <Img
-            width={200}
-            height={180}
-            src="/research1.jpeg"
-            alt=""
-            loading="eager"
-          />
-          <Img
-            width={200}
-            height={360}
-            src="/campus3.jpeg"
-            alt=""
-            loading="eager"
-          />
-          <Img
-            width={200}
-            height={180}
-            src="/research2x.jpeg"
-            alt=""
-            loading="eager"
-          />
+          <Link target="_blank" href="/layout-ground-floor.webp">
+            <Img
+              width={200}
+              height={180}
+              src="/layout-ground-floor.webp"
+              alt=""
+              loading="eager"
+            />
+          </Link>
+          <Link target="_blank" href="/layout-gate.webp">
+            <Img
+              width={200}
+              height={360}
+              src="/layout-gate.webp"
+              alt=""
+              loading="eager"
+            />
+          </Link>
+          <Link target="_blank" href="/layout-furniture.webp">
+            <Img
+              width={200}
+              height={180}
+              src="/layout-furniture.webp"
+              alt=""
+              loading="eager"
+            />
+          </Link>
         </div>
       </div>
     </section>

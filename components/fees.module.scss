@@ -1,58 +1,43 @@
 .section {
-  & > div {
-    display: flex;
-    padding: 3rem 0 2rem;
-    display: flex;
-    gap: 2%;
-    align-items: center;
-  }
+  padding: 3rem 0;
 }
-.header {
-  width: 30%;
-  margin-left: auto;
-  // padding: 6rem 3rem 6rem 0;
-  padding: 3rem;
-  svg {
-    height: 72px;
-    width: 72px;
-    // fill: #f4b442;
-  }
-  h2 {
-    margin: 1.5rem 0 2.5rem;
-    font-size: 2.8rem;
-  }
-  p {
+
+.tution {
+  display: flex;
+  align-items: center;
+}
+
+.fee_container {
+  width: 70%;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.fee {
+  display: flex;
+
+  h3 {
+    padding: 1rem 2rem;
+    display: flex;
+    background-color: #eff1f4;
+    border-radius: 4px 0 0 4px;
     line-height: 2.8rem;
-    margin-bottom: 3rem;
+  }
+  h4 {
+    padding: 1rem 2rem;
+    background-color: #f3b041;
+    border-radius: 0 4px 4px 0;
+    line-height: 2.8rem;
   }
 }
 
-.card {
-  // width: 33.33%;
-  width: 60%;
-  margin-right: auto;
-  position: relative;
+.accomodation {
   display: flex;
-  flex-direction: column;
-  border-radius: 5px;
-  padding: 2rem 2rem 1rem;
-  background: #fff;
-  //box-shadow: 0 10px 40px rgba(12, 29, 74, 0.08);
-  h3 {
-    padding: 1rem;
-    // border-bottom: 3px solid #ffb013;
-    font-size: 2rem;
-    color: #000;
-    &:after {
-      margin-top: 1.5rem;
-      content: "";
-      display: block;
-      width: 40%;
-      border-bottom: 4px solid #ffb013;
-    }
-  }
+  flex-wrap: wrap;
   ul {
-    margin: 1rem 0 2rem;
+    width: 70%;
+    margin: 1rem 0;
     li {
       line-height: 2.4rem;
       font-size: 1.5rem;
@@ -63,16 +48,53 @@
         background-color: #f6f8fb;
       }
     }
+    p {
+      padding: 2rem;
+      line-height: 2;
+    }
   }
+  .fee {
+    width: max-content;
+    margin-left: auto;
+    h3 {
+      border-radius: 4px 0 0 0;
+      flex-shrink: 0;
+      width: max-content;
 
-  a {
-    margin: auto 0 0;
-    padding: 1rem 2.5rem;
-    line-height: auto;
-    text-align: center;
-    height: auto;
-    line-height: 3rem;
-    border-radius: 3px;
+      padding: 1rem 2rem;
+    }
+    h4 {
+      border-radius: 0 4px 0 0;
+      flex-shrink: 0;
+      width: max-content;
+    }
+  }
+}
+
+.header {
+  width: 30%;
+  padding: 3rem;
+  //display: flex;
+
+  svg {
+    height: 48px;
+    width: 48px;
+    margin-right: 2rem;
+    &::before {
+      content: "";
+      display: block;
+      height: 25%;
+      padding-left: 1rem;
+      border-left: 4px solid #ffb013;
+    }
+  }
+  h2 {
+    margin: 1rem 0;
+    font-size: 2.1rem;
+  }
+  p {
+    line-height: 2.2rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -81,7 +103,51 @@
     & > div {
       flex-direction: column;
       width: 100%;
-      padding: 1rem 0 5rem;
+      padding: 1rem 0;
+    }
+    p {
+      line-height: 1.7;
+      padding: 2rem;
+      text-align: left;
+      margin-top: 0;
+    }
+  }
+  .tution {
+    flex-direction: column;
+  }
+  .fee_container {
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+  }
+  .fee {
+    h3 {
+      padding: 0.5rem 1rem;
+      font-size: 1.4rem;
+      width: 65%;
+      line-height: 2.4;
+    }
+    h4 {
+      width: 35%;
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+      line-height: 2.8;
+    }
+  }
+  .accomodation {
+    margin-top: 2rem;
+    ul {
+      width: 100%;
+      padding: 0 1rem;
+    }
+    .fee {
+      h3 {
+        padding: 0.5rem 1rem;
+      }
+      h4 {
+        padding: 0.5rem 1rem;
+        line-height: 2.8;
+      }
     }
   }
   .header {
@@ -89,16 +155,6 @@
     width: 100%;
     h2 {
       font-size: 2.4rem;
-    }
-  }
-  .card {
-    width: 100%;
-    padding: 0;
-    ul {
-      margin: 0;
-      li {
-        padding: 1.25rem 2rem;
-      }
     }
   }
 }

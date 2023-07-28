@@ -8,5 +8,7 @@ async function getPlaceHolderImage(src: string) {
 
 export default async function Img(props: ImageProps) {
   const base64 = await getPlaceHolderImage(String(props.src));
-  return <Image {...props} placeholder="blur" blurDataURL={base64} />;
+  return (
+    <Image {...props} placeholder="blur" blurDataURL={base64} alt={props.alt} />
+  );
 }

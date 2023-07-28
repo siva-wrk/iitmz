@@ -6,7 +6,7 @@ import Counter from "@/components/counter";
 import Events from "@/components/events";
 import Testimonials from "@/components/testimonials";
 import Gallery from "@/components/gallery";
-import Img from "@/components/image";
+import AdvisoryCouncil from "@/components/advisory-council";
 
 export default function Home() {
   return (
@@ -442,6 +442,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <AdvisoryCouncil />
       <Gallery />
     </main>
   );

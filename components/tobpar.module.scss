@@ -1,0 +1,43 @@
+.topbar {
+  background-color: #d50032;
+  padding: 1rem 0;
+  a {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: inline-block;
+    border-right: 1px solid #e86c8a;
+    &:first-child {
+      padding: 0 2rem 0 0;
+    }
+    &:nth-child(2) {
+      padding: 0 2rem;
+    }
+  }
+  span {
+    padding-left: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 480px) {
+  .topbar {
+    padding: 0.6rem;
+    a {
+      font-size: 1rem;
+
+      &:first-child {
+        padding: 0 0.5rem 0 0;
+      }
+      &:nth-child(2) {
+        padding: 0 0.5rem;
+      }
+    }
+    span {
+      font-size: 1rem;
+      padding-left: 0.5rem;
+    }
+  }
+}

@@ -1,11 +1,13 @@
 "use client";
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import styles from "./header.module.scss";
 import Link from "next/link";
-import Button from "./button";
-import { usePathname } from "next/navigation";
+import Image from "next/image";
 import { useState } from "react";
 import ApplyDropdown from "./apply-dropdown";
+import Topbar from "./topbar";
+import Navbar from "./navbar";
 
 export default function Header() {
   const [navToggle, setNavToggle] = useState(false);
@@ -16,16 +18,7 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <div className={styles.topbar}>
-        <div className="container">
-          <a href="tel:+919043338564">(+91) 9043338564</a>
-          <a href="mailto:iitm_zanzibar@ge.iitm.ac.in">
-            iitm_zanzibar@ge.iitm.ac.in
-          </a>
-          <span>Zanzibar, Tanzania</span>
-        </div>
-      </div>
-
+      <Topbar />
       <div className="container">
         <div className={styles.main}>
           <Link href="/" title="IIT Madras" className={styles.logo}>
@@ -2677,9 +2670,11 @@ export default function Header() {
 
           <a href="https://www.iitm.ac.in/" className={styles.link_box}>
             An Institute of Eminence
-            <img
-              src="https://www.iitm.ac.in/themes/custom/iitm/assets/images/header/ioe.png"
-              alt=""
+            <Image
+              src="/ioe.png"
+              width={20}
+              height={24}
+              alt="Institute Of Eminence Icon"
             />
           </a>
 
@@ -2703,17 +2698,8 @@ export default function Header() {
             </svg>
           </button>
         </div>
+        <Navbar navToggle={navToggle} />
       </div>
-      <nav className={`${styles.nav} ${navToggle ? styles.nav_show : ``}`}>
-        <Link href="/">Home</Link>
-        <Link href="/academics/">Academics</Link>
-        <Link href="/research/">Research</Link>
-        <Link href="/careers/">Careers</Link>
-        <Link href="/media/">In Media</Link>
-        <Link href="/testimonials/">Testimonials</Link>
-        <Link href="/campus-life/">Campus Life</Link>
-        <Link href="/admission/">Admissions</Link>
-      </nav>
     </header>
   );
 }

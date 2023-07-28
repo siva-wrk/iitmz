@@ -2,6 +2,7 @@ import withPlaiceholder from "@plaiceholder/next";
 /** @type {import('next').NextConfig} */
 
 let config = {
+  // To have old resource links to still function after the domain was moved from www.iitm.ac.in/zanzibar/
   async rewrites() {
     return [
       {
