@@ -11,7 +11,7 @@ export default function Ticker() {
       <div className={styles.body}>
         <Marquee>
           {announcements.map((announcement) => (
-            <p>{announcement?.title}</p>
+            <p key={announcement?.title}>{announcement?.title}</p>
           ))}
         </Marquee>
       </div>
