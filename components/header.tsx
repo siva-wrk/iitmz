@@ -8,6 +8,7 @@ import { useState } from "react";
 import ApplyDropdown from "./apply-dropdown";
 import Topbar from "./topbar";
 import Navbar from "./navbar";
+import Ticker from "./ticker";
 
 export default function Header() {
   const [navToggle, setNavToggle] = useState(false);
@@ -19,6 +20,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <Topbar />
+
       <div className="container">
         <div className={styles.main}>
           <Link href="/" title="IIT Madras" className={styles.logo}>
@@ -2700,6 +2702,7 @@ export default function Header() {
         </div>
         <Navbar navToggle={navToggle} />
       </div>
+      <Ticker />
     </header>
   );
 }
