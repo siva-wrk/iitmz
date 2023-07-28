@@ -1,6 +1,10 @@
 const media = {
   yt: [
     {
+      title: "India’s FIRST International IIT",
+      id: "mHj3vpzACdM",
+    },
+    {
       title: "Zanzibar and India sign agreement to open IIT campus in Zanzibar",
       id: "po3JPFVT_BU",
     },
@@ -19,8 +23,42 @@ const media = {
         "IIT Madras Campus in Zanzibar, Tanzania | Strengthening Global Education",
       id: "CyIGEw5Te9I",
     },
+    {
+      title: "IIT Madras Zanzibar Campus for your Data Science and AI programs",
+      id: "wUA0DH4xU58",
+    },
   ],
   articles: [
+    {
+      title: "IIT Madras’ Zanzibar campus to commence classes from October",
+      desc: "The international campus of the Indian Institute of Technology Madras (IIT Madras), spread across 200 acres on Zanzibar Island in Tanzania, will start classes in October 2023. Preeti Aghalayam, Dean of the School of Science & Engineering, IIT Madras, will be the first women director of an IIT as she is the Director-in-charge of international campus of the IIT Madras at Zanzibar-Tanzania.",
+      link: "https://www.thehindubusinessline.com/on-campus/iit-madras-zanzibar-campus-to-commence-classes-from-october/article67071731.ece",
+      image: {
+        url: "/hindu_business.webp",
+        alt: "Prof Preeti Aghalayam (5th C), Director-in-charge, Zanzibar campus, IIT Madras & Prof Raghunathan Rengaswamy (3rd R), Dean, IIT-M.",
+      },
+    },
+    {
+      title:
+        "STEM: The proverbial leaky pipeline requires significant mindset shift in society, says head of first woman led IIT",
+      desc: "The glass ceiling exists and in every sphere of life, but there are some women who defy convention, and Prof Preeti Aghalayam is one of them. She has become the first woman director-in-charge of an IIT– at the Zanzibar campus of IIT Madras as it makes its first foray overseas.",
+      link: "https://www.educationtimes.com/article/campus-beat-college-life/99733256/the-proverbial-leaky-pipeline-requires-significant-mindset-shift-in-society-says-head-of-first-woman-led-iit",
+      image: {
+        url: "/education_times.webp",
+        alt: "Image of Prof Preeti Aghalayalam",
+      },
+    },
+    {
+      title:
+        "Open to non-science students, annual fee of $12,000 — IIT-Madras’ plans for its Zanzibar campus",
+      desc: "Institute's 1st international campus to open in Tanzania in October. It will have separate entrance test with 70 seats on offer. Programmes will be open to students of all nationalities. A separate entrance test, admission to non-science students and an annual fee of USD 12,000 (INR 9.91 lakh).",
+      link: "https://theprint.in/india/education/open-to-non-science-students-annual-fee-of-12000-iit-madras-plans-for-its-zanzibar-campus/1662860/",
+      image: {
+        url: "/print_news.webp",
+        alt: "Image of IITM Zanzibar Campus",
+      },
+    },
+
     {
       title:
         "IIT Campus In Tanzania's Zanzibar To Offer Data Science And AI Courses, Classes To Start From October",

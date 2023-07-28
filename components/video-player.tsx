@@ -28,6 +28,7 @@ export default function VideoPlayer({ url, previewImage }: VideoPlayerProps) {
         height="100%"
         width="100%"
         playing={true}
+        controls={true}
       />
     </div>
   );
