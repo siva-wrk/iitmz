@@ -1,10 +1,6 @@
 const media = {
   yt: [
     {
-      title: "India’s FIRST International IIT",
-      id: "mHj3vpzACdM",
-    },
-    {
       title: "Zanzibar and India sign agreement to open IIT campus in Zanzibar",
       id: "po3JPFVT_BU",
     },
@@ -48,17 +44,6 @@ const media = {
         alt: "Image of Prof Preeti Aghalayalam",
       },
     },
-    {
-      title:
-        "Open to non-science students, annual fee of $12,000 — IIT-Madras’ plans for its Zanzibar campus",
-      desc: "Institute's 1st international campus to open in Tanzania in October. It will have separate entrance test with 70 seats on offer. Programmes will be open to students of all nationalities. A separate entrance test, admission to non-science students and an annual fee of USD 12,000 (INR 9.91 lakh).",
-      link: "https://theprint.in/india/education/open-to-non-science-students-annual-fee-of-12000-iit-madras-plans-for-its-zanzibar-campus/1662860/",
-      image: {
-        url: "/print_news.webp",
-        alt: "Image of IITM Zanzibar Campus",
-      },
-    },
-
     {
       title:
         "IIT Campus In Tanzania's Zanzibar To Offer Data Science And AI Courses, Classes To Start From October",
