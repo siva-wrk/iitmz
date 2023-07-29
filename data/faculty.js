@@ -682,7 +682,11 @@ const faculty = [
       },
       {
         title: "On a square-ice analogue of plane partitions",
-        authors: ["Suresh Govindarajan", "A. Guttmann", "Varsha Subramanyan"],
+        authors: [
+          "Suresh Govindarajan",
+          "Anthony J. Guttmann",
+          "Varsha Subramanyan",
+        ],
         publisher:
           "Ann. Inst. Henri Poincaré Comb. Phys. Interact. 6 (2019), no. 1, pp. 123–154",
         year: 2019,
