@@ -237,7 +237,9 @@
       margin: 0 auto;
     }
     & > h3 {
-      margin: 0 auto 3rem;
+      &:last-of-type {
+        margin-bottom: 0 auto 3rem;
+      }
     }
   }
   .main {
