@@ -9,7 +9,7 @@ const announcements = [
   ,
   {
     title:
-      "Contest Winners Announced: Chinmay R, Sakshi Roy, Shirllie Praise Apiyo, Irfan Khan, Alekhya Purkait, Aashish Charles, Arua mercy Orieoma",
+      "Contest Winners Announced: Shirllie Praise Apiyo, Irfan Khan, Alekhya Purkait, Aashish Charles, Arua mercy Orieoma",
   },
 ];
 
