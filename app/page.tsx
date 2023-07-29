@@ -16,6 +16,9 @@ export default function Home() {
       <News />
       <Courses />
       <Counter />
+
+      <Leadership />
+      <AdvisoryCouncil />
       <section className={styles.events_testimonials_section}>
         <div className="container">
           {/* <Events /> */}
@@ -443,8 +446,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Leadership />
-      <AdvisoryCouncil />
       <Gallery />
     </main>
   );

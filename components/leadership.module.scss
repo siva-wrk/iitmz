@@ -1,13 +1,13 @@
 .section {
   padding: 7rem 0 5rem;
   background: rgb(255, 255, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 50%,
-    rgba(195, 41, 57, 1) 45%,
-    rgba(195, 41, 57, 1) 100%
-  );
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(255, 255, 255, 1) 0%,
+  //   rgba(255, 255, 255, 1) 50%,
+  //   #d50032 45%,
+  //   #d50032 100%
+  // );
   & > div {
     display: flex;
     justify-content: space-around;
@@ -24,11 +24,11 @@
     border-radius: 50%;
     margin-bottom: 1.5rem;
   }
-  h3,
-  h4,
-  p {
-    color: #fff;
-  }
+  // h3,
+  // h4,
+  // p {
+  //   color: #fff;
+  // }
 
   h3 {
     font-size: 2rem;

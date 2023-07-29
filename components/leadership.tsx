@@ -29,8 +29,7 @@ export default function Leadership() {
               alt="Image of Professor Ligy Philip"
             />
             <h3>Prof Ligy Philip</h3>
-            <h4>Professor in Charge</h4>
-            <p>Infrastructure</p>
+            <h4>Professor-in-charge (Infrastructure)</h4>
           </div>
         </Link>
       </div>
