@@ -53,7 +53,7 @@ export default function FacultyPage({ params }: { params: { slug: string } }) {
             </a>
           </p>
           <div className={styles.qualification}>
-            <h2>Education Qualifications</h2>
+            <h2>Educational Qualifications</h2>
             {facultyMember.qualification.map((qualification) => (
               <div key={qualification.title}>
                 <h3>

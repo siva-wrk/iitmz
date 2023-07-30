@@ -662,8 +662,8 @@ const faculty = [
       {
         title:
           "The Brylinski filtration for affine Kac-Moody algebras and representations of W-algebras",
-        authors: ["S. Govindarajan", " S. S. Sharma", "S. Viswanath"],
-        publisher: "JHEP 03 ",
+        authors: ["S. Govindarajan", "S. S. Sharma", "S. Viswanath"],
+        publisher: "Algebras and Representation Theory, October 2021, pp 1-22",
         year: 2021,
       },
       // {
