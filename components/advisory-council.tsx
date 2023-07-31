@@ -34,7 +34,7 @@ export default function AdvisoryCouncil() {
             <h2>Dr. Mridula Nair</h2>
             <h4>
               Research Fellow, <br /> Distinguished Inventor, <br />
-              Distinguished Alumni of IITM
+              Distinguished Alumna of IITM
             </h4>
             <p>Eastman Kodak Company, USA</p>
           </div>

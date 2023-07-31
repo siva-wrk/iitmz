@@ -748,7 +748,7 @@ const faculty = [
     courses: [
       {
         title:
-          "Calculus I, Calculus II, Series and Matrices, Linear Algebra and Numerical Analysis, Linear Algebra for Engineers, Discrete Mathematics,Graphs and Combinatorics, Basic Graph Theory (B.Tech.)",
+          "Calculus I, Calculus II, Series and Matrices, Linear Algebra and Numerical Analysis, Linear Algebra for Engineers, Discrete Mathematics, Graphs and Combinatorics, Basic Graph Theory (B.Tech.)",
       },
       {
         title:

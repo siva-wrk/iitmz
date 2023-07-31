@@ -492,11 +492,11 @@ export default function PartnersPage() {
                 </g>
               </svg> */}
             <p>
-              In a historic development, IIT Madras Zanzibar Campus signs #MoUs
+              In a historic development, IIT Madras Zanzibar Campus signs MoUs
               with four international institutions that would facilitate
               enhanced collaboration among the institutions on student exchange,
               study abroad programs, staff exchange, teaching & research among
-              others, at the #NEP2020 Anniversary event held today at Pragati
+              others, at the NEP2020 Anniversary event held today at Pragati
               Maidan, New Delhi.
             </p>
           </div>
