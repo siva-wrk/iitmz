@@ -1,16 +1,48 @@
 import styles from "./page.module.scss";
 import Slider from "@/components/slider";
 import Img from "@/components/image";
+import Link from "next/link";
 
 export default function PartnersPage() {
   return (
     <div className={styles.page}>
-      <section className={styles.partners}>
-        <div className="container">
-          <div className={styles.header}>
-            <div>
-              <h2>Our Partners</h2>
-              <p>
+      <div className="container">
+        <div className={styles.gallery}>
+          <Slider
+            slidesToShow={1}
+            slidesToShowOnMobile={1}
+            slideGap="40px"
+            enableAutoplay={true}
+          >
+            <Img
+              src="/birmingham.jpg"
+              alt="Image of signing of MOU with University of Birmingham"
+              width={1200}
+              height={500}
+            />
+            <Img
+              src="/ase.jpg"
+              alt="Image of signing of MOU with African School of Economics"
+              width={1200}
+              height={500}
+            />
+            <Img
+              src="/deakin.jpg"
+              alt="Image of signing of MOU with Deakin University"
+              width={1200}
+              height={500}
+            />
+            <Img
+              src="/nutm.jpg"
+              alt="Image of signing of MOU with Nigerian University of Technology and Management"
+              width={1200}
+              height={500}
+            />
+          </Slider>
+        </div>
+        <div className={styles.header}>
+          <h2>Our Partners</h2>
+          {/* <p>
                 At IITM, we believe in the power of collaboration and the
                 importance of forging strong partnerships to achieve excellence
                 in education and research. We are proud to be associated with a
@@ -19,10 +51,9 @@ export default function PartnersPage() {
                 partnerships span industries, academia, government agencies, and
                 non-profit organizations, creating a vibrant ecosystem that
                 nurtures talent and drives impactful solutions.
-              </p>
-            </div>
-            <div className={styles.icon}>
-              <svg xmlns="http://www.w3.org/2000/svg" width={365} height={382}>
+              </p> */}
+          <div>
+            {/* <svg xmlns="http://www.w3.org/2000/svg" width={365} height={382}>
                 <defs>
                   <linearGradient
                     id="a"
@@ -459,10 +490,18 @@ export default function PartnersPage() {
                     d="M165.05 247.87s8.51-14.28 11.25-18.38c2.74-4.11 6.34 12.12 6.34 12.12l-8.12 16.71-9.47-10.45Z"
                   />
                 </g>
-              </svg>
-            </div>
+              </svg> */}
+            <p>
+              In a historic development, IIT Madras Zanzibar Campus signs #MoUs
+              with four international institutions that would facilitate
+              enhanced collaboration among the institutions on student exchange,
+              study abroad programs, staff exchange, teaching & research among
+              others, at the #NEP2020 Anniversary event held today at Pragati
+              Maidan, New Delhi.
+            </p>
           </div>
-          <div className={styles.slider}>
+        </div>
+        {/* <div className={styles.slider}>
             <Slider
               slidesToShow={4}
               slidesToShowOnMobile={2}
@@ -502,9 +541,55 @@ export default function PartnersPage() {
                 />
               </div>
             </Slider>
-          </div>
+          </div> */}
+
+        <div className={styles.partners}>
+          <Link target="_blank" href="https://www.birmingham.ac.uk/index.aspx">
+            <div className={styles.card}>
+              <Img
+                src="/uob.png"
+                alt="Website of Birmingham University"
+                width={300}
+                height={180}
+              />
+              <p>University of Birmingham, UK</p>
+            </div>
+          </Link>
+          <Link target="_blank" href="https://www.africanschoolofeconomics.com">
+            <div className={styles.card}>
+              <Img
+                src="/ase.png"
+                alt="Website of African School of Economics"
+                width={300}
+                height={180}
+              />
+              <p>African School of Economics</p>
+            </div>
+          </Link>
+          <Link target="_blank" href="https://www.deakin.edu.au">
+            <div className={styles.card}>
+              <Img
+                src="/deakin_alt.png"
+                alt="Website of Deakin University, Australia"
+                width={300}
+                height={180}
+              />
+              <p>Deakin University, Australia</p>
+            </div>
+          </Link>
+          <Link target="_blank" href="https://nutm.edu.ng">
+            <div className={styles.card}>
+              <Img
+                src="/nutm.png"
+                alt="Website of Nigerian University of Technology & Management"
+                width={300}
+                height={180}
+              />
+              <p>Nigerian University of Technology & Management</p>
+            </div>
+          </Link>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

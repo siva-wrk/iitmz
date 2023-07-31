@@ -1,64 +1,112 @@
 .page {
   padding: 2rem 0;
-  @media (max-width: 480px) {
-    padding: 3rem 0;
-  }
 }
 
 .partners {
-  background-image: url(/zanzibar/img/bg/partner.png);
-  padding: 2rem 0;
+  //background-image: url(/img/bg/partner.png);
+  padding: 1rem 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.card {
+  img {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  p {
+    margin: 0.5rem 1rem;
+  }
+}
+
+.gallery {
+  img {
+    object-fit: cover;
+    object-position: top;
+  }
 }
 
 .header {
-  display: grid;
-  padding: 2rem 7rem;
-  grid-template-columns: 5fr 3fr;
+  // display: flex;
+  padding: 3rem 0;
   gap: 5%;
   align-items: center;
-  @media (max-width: 480px) {
-    padding: 0 2rem;
-    grid-template-columns: 1fr;
-  }
+
   h2 {
     font-size: 3.6rem;
+    border-left: 4px solid #ffb013;
+    padding-left: 2rem;
+    margin-top: 1rem;
   }
   p {
     line-height: 2;
-    margin: 2rem 0;
+    margin: 2rem 0 0;
     font-size: 1.6rem;
+    flex: 0 0 50%;
   }
-}
-@media (max-width: 480px) {
-  .icon {
-    grid-row: 1;
-    svg {
-      height: 300px;
-      & > g {
-        transform: scale(0.8);
-      }
-    }
-  }
-}
-
-.slider {
-  margin: 3rem 6rem;
-  img {
-    object-fit: contain;
-  }
-  @media (max-width: 480px) {
-    margin: 4rem 1.5rem;
-  }
-}
-
-.logo {
   svg {
-    height: 70px;
-    width: 140px;
-    object-fit: contain;
-    @media (max-width: 480px) {
-      height: 50px;
-      width: 130px;
+    scale: (0.7);
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 3rem 0;
+  }
+  .gallery {
+    img {
+      height: 200px;
+    }
+  }
+  .header {
+    padding: 2rem 1rem;
+    h2 {
+      font-size: 2.6rem;
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 1.8;
+    }
+  }
+  .partners {
+    flex-direction: column;
+  }
+  .card {
+    img {
+      width: 100%;
     }
   }
 }
+
+// @media (max-width: 480px) {
+//   .icon {
+//     grid-row: 1;
+//     svg {
+//       height: 300px;
+//       & > g {
+//         transform: scale(0.8);
+//       }
+//     }
+//   }
+// }
+
+// .slider {
+//   margin: 3rem 6rem;
+//   img {
+//     object-fit: contain;
+//   }
+//   @media (max-width: 480px) {
+//     margin: 4rem 1.5rem;
+//   }
+// }
+
+// .logo {
+//   svg {
+//     height: 70px;
+//     width: 140px;
+//     object-fit: contain;
+//     @media (max-width: 480px) {
+//       height: 50px;
+//       width: 130px;
+//     }
+//   }
+// }

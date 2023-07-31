@@ -27,6 +27,7 @@ const navMenu = [
   { title: "Research", link: "/research/" },
   { title: "Careers", link: "/careers/" },
   { title: "In Media", link: "/media/" },
+  { title: "Our Partners", link: "/partners/" },
   { title: "Testimonials", link: "/testimonials/" },
   { title: "Campus Life", link: "/campus-life/" },
   { title: "Financial Aid", link: "/financial-aid/" },
