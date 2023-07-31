@@ -33,7 +33,8 @@ export default function AdvisoryCouncil() {
           <div className={styles.body}>
             <h2>Dr. Mridula Nair</h2>
             <h4>
-              Research Fellow & <br /> Distinguished Inventor
+              Research Fellow, <br /> Distinguished Inventor, <br />
+              Distinguished Alumni of IITM
             </h4>
             <p>Eastman Kodak Company, USA</p>
           </div>
@@ -56,7 +57,7 @@ export default function AdvisoryCouncil() {
           </Link> */}
         </div>
         <div className={styles.card}>
-          <h3>Chaired By</h3>
+          <h3>Chair</h3>
           <Img
             src="/prof-raghu.jpg"
             alt="Picture of Chair Raghunathan Rengaswamy"

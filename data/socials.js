@@ -1,6 +1,6 @@
 const socials = [
   {
-    title: "linkedin",
+    title: "Linkedin",
     icon: "linkedin",
     link: "https://www.linkedin.com/company/iitmzanzibar/",
   },
