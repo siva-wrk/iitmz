@@ -15,25 +15,25 @@ export default function PartnersPage() {
             enableAutoplay={true}
           >
             <Img
-              src="/birmingham.jpg"
+              src="/birmingham-2x.jpeg"
               alt="Image of signing of MOU with University of Birmingham"
               width={1200}
               height={500}
             />
             <Img
-              src="/ase.jpg"
+              src="/ase-2x.jpeg"
               alt="Image of signing of MOU with African School of Economics"
               width={1200}
               height={500}
             />
             <Img
-              src="/deakin.jpg"
+              src="/deakin-2x.jpeg"
               alt="Image of signing of MOU with Deakin University"
               width={1200}
               height={500}
             />
             <Img
-              src="/nutm.jpg"
+              src="/nutm-2x.jpeg"
               alt="Image of signing of MOU with Nigerian University of Technology and Management"
               width={1200}
               height={500}
