@@ -714,6 +714,130 @@ const faculty = [
     ],
   },
   {
+    slug: "prof-narayanan-n",
+    name: "Prof Narayanan N",
+    img: "/narayanan.png",
+    title: "Professor, Dept of Mathematics",
+    desc: "",
+    interests:
+      "My interest areas include Structural Graph Theory: Colouring, Decomposition. Algebraic Combinatorics: Graph Ideals and Comb. Algebra.",
+    contact: {
+      email: "naru@iitm.ac.in",
+      website: "https://home.iitm.ac.in/naru/",
+    },
+    qualification: [
+      {
+        title: "Ph.D.",
+        year: "2010",
+        course: "Mathematics",
+        place: "Homi Bhabha National institute",
+      },
+      {
+        title: "M.Sc.",
+        year: "1999",
+        course: "Operations Research and Computer Applications",
+        place: "Cochin University of Science and Technology",
+      },
+      {
+        title: "B.Sc.",
+        year: "1997",
+        course: "Mathematics",
+        place: "University of Calicut",
+      },
+    ],
+    courses: [
+      {
+        title:
+          "Calculus I, Calculus II, Series and Matrices, Linear Algebra and Numerical Analysis, Linear Algebra for Engineers, Discrete Mathematics,Graphs and Combinatorics, Basic Graph Theory (B.Tech.)",
+      },
+      {
+        title:
+          "Mathematical Logic, Graph Theory, Combinatorics, Fundamentals of Discrete Mathe- matics (M.Sc.)",
+      },
+      {
+        title: "Discrete Mathematics (M.Tech)",
+      },
+      {
+        title: "Combinatorics (NPTEL)",
+      },
+    ],
+    papers: [
+      {
+        title: "On total coloring of some classes of regular graphs",
+        authors: [
+          "Shantharam Prajnanaswaroopa",
+          "Jayabalan Geetha",
+          "Kanagasabapathi Somasundaram",
+          "Hung-Lin Fu",
+          "Narayanan Narayanan",
+        ],
+        publisher: "Taiwanese J. Math., 26 (4), 667-683",
+        year: 2022,
+      },
+      {
+        title: "Strong edge coloring of cayley graphs and some product graphs",
+        authors: [
+          "Suresh Dara",
+          "Suchismita Mishra",
+          "Narayanan Narayanan",
+          "Zsolt Tuza",
+        ],
+        publisher: "Graphs Combin. 38, no. 2, Paper No. 51, 20 pp.",
+        year: 2022,
+      },
+      {
+        title: "Extending some results on the second neighborhood conjecture",
+        authors: [
+          "Suresh Dara",
+          "Mathew C. Francis",
+          "Dalu Jacob",
+          "Narayanan Narayanan",
+        ],
+        publisher: "Discrete Appl. Math. 311, 1–17.",
+        year: 2022,
+      },
+      {
+        title: "Exact square coloring of subcubic planar graphs",
+        authors: [
+          "Florent Foucaud",
+          "Hervé Hocquard",
+          "Suchismita Mishra",
+          "Narayanan Narayanan",
+          "Reza Naserasr",
+          "Éric Sopena",
+          "Petru Valicov",
+        ],
+        publisher: "Discrete Appl. Math. 293, 74–89",
+        year: 2021,
+      },
+      {
+        title:
+          "Axiomatic Characterization of the interval function of a bipartite graph",
+        authors: [
+          "Manoj Changat",
+          "Ferdoos Hossein Nezhad",
+          "Narayanan Narayanan",
+        ],
+        publisher: "Discrete Appl. Math. 286, 19–28",
+        year: 2020,
+      },
+      {
+        title:
+          "Interval function, Induced path function, (claw, paw)-free graphs and axiomatic characterizations",
+        authors: ["Manoj Changat", "Ferdoos Hossein Nezhad", "Narayanan N."],
+        publisher: "Discrete Appl. Math. 280, 53–62",
+        year: 2020,
+      },
+      {
+        title:
+          "An upper bound for the regularity of binomial edge ideals of trees",
+        authors: ["A. V. Jayanthan", "Narayanan N.", "B. V. Raghavendra Rao"],
+        publisher: "J. Algebra Appl. 18, no. 9, 1950170, 7 pp.",
+        year: 2019,
+      },
+    ],
+  },
+  {
     slug: "prof-ligy-philip",
     name: "Prof Ligy Philip",
     img: "/ligy-1.png",
