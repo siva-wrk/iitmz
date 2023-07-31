@@ -1,8 +1,8 @@
 "use client";
-
 import styles from "./ticker.module.scss";
 import announcements from "@/data/announcements";
 import Marquee from "react-fast-marquee";
+import stringReplacer from "./string-replacer";
 
 export default function Ticker() {
   return (
@@ -11,7 +11,7 @@ export default function Ticker() {
       <div className={styles.body}>
         <Marquee>
           {announcements.map((announcement) => (
-            <p key={announcement?.title}>{announcement?.title}</p>
+            <p key={announcement.title}>{stringReplacer(announcement.title)}</p>
           ))}
         </Marquee>
       </div>

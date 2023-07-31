@@ -6,6 +6,7 @@ import { BsGlobeCentralSouthAsia, BsBookmarksFill } from "react-icons/bs";
 import { FaUserEdit } from "react-icons/fa";
 import { RiAwardLine } from "react-icons/ri";
 import Link from "next/link";
+import stringReplacer from "@/components/string-replacer";
 
 const dynamicParams = false;
 export { dynamicParams };
@@ -105,7 +106,7 @@ export default function FacultyPage({ params }: { params: { slug: string } }) {
                 <h4>
                   <AiTwotoneCalendar /> {paper.year}
                 </h4>
-                <h3>{paper.title}</h3>
+                <h3>{stringReplacer(paper.title)}</h3>
                 <div className={styles.authors}>
                   {paper.authors.map((author) => (
                     <p key={author}>

@@ -614,7 +614,7 @@ const faculty = [
     papers: [
       {
         title:
-          "sl(2)ˆ Decomposition of denominator formulae of some BKM Lie superalgebras - II",
+          "{{sl(2)ex}} decomposition of denominator formulae of some BKM Lie superalgebras - II",
         authors: ["Suresh Govindarajan", "Mohammad Shabbir"],
         publisher: "Nucl.Phys.B 989",
         year: 2023,
@@ -632,7 +632,7 @@ const faculty = [
       },
       {
         title:
-          "sl(2)ˆ decomposition of denominator formulae of some BKM Lie superalgebras",
+          "{{sl(2)ex}} decomposition of denominator formulae of some BKM Lie superalgebras",
         authors: [
           "Suresh Govindarajan",
           "Mohammad Shabbir",
