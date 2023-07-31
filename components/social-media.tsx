@@ -31,8 +31,8 @@ export default function SocialMedia() {
           Follow us <br /> on Social Media
         </h2>
         {socials.map((social) => (
-          <Link href={social.link} target="_blank">
-            <div key={social.icon} className={styles.social}>
+          <Link key={social.icon} href={social.link} target="_blank">
+            <div className={styles.social}>
               {createElement(socialIcons[social.icon])}
               <p>{social.title}</p>
             </div>
