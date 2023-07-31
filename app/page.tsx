@@ -8,6 +8,7 @@ import Testimonials from "@/components/testimonials";
 import Gallery from "@/components/gallery";
 import AdvisoryCouncil from "@/components/advisory-council";
 import Leadership from "@/components/leadership";
+import SocialMedia from "@/components/social-media";
 
 export default function Home() {
   return (
@@ -446,6 +447,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <SocialMedia />
       <Gallery />
     </main>
   );
