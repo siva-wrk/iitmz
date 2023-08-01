@@ -40,7 +40,15 @@ export default function AdmissionHeader() {
                   skills. From cutting-edge technologies to innovative research
                   opportunities, the advanced curriculum at IITM ensures
                   students are well-prepared to excel in their chosen fields and
-                  make a meaningful impact in the world.
+                  make a meaningful impact in the world. Click{" "}
+                  <Link href="/schools/engineering-and-science/bs-data-science-and-ai">
+                    here
+                  </Link>{" "}
+                  to see the curriculum for BS in DS & AI and{" "}
+                  <Link href="/schools/engineering-and-science/mtech-data-science-and-ai">
+                    here
+                  </Link>{" "}
+                  for MTech in DS & AI
                 </p>
               </TabPanel>
               <TabPanel index={1}>
@@ -54,9 +62,9 @@ export default function AdmissionHeader() {
                   dynamic learning environment. With a commitment to excellence
                   in teaching and research, the acclaimed faculty at IITM plays
                   a pivotal role in shaping future leaders and innovators. Know
-                  more about the IITM Zanzibar faculty at this page{" "}
+                  more about the IITM Zanzibar faculty{" "}
                   <Link href="/schools/engineering-and-science#faculty">
-                    [Link here]
+                    here
                   </Link>
                 </p>
               </TabPanel>
