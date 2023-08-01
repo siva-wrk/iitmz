@@ -18,10 +18,10 @@ export default function Hero() {
           <div className={styles.content}>
             <h4>IITM Zanzibar Campus</h4>
             <h3>Welcome To</h3>
-            <h2>
+            <h1>
               IIT Madras
               <span>Zanzibar</span>
-            </h2>
+            </h1>
             {/* <ApplyDropdown /> */}
           </div>
         </div>

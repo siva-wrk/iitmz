@@ -725,7 +725,7 @@ export default function CareersPage() {
             />
           </svg>
           <div className={styles.apply}>
-            <h2>We Are Hiring</h2>
+            <h1>We Are Hiring</h1>
             <p>Interested candidates can apply now</p>
             <div>
               <div className={styles.dates}>

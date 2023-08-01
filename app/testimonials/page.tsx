@@ -6,9 +6,9 @@ export default function TestimonialsPage() {
   return (
     <div className={styles.page}>
       <div className="container">
-        <h2 className="section-title center line">
+        <h1 className="section-title center line">
           What Students <br /> Think About IIT Madras
-        </h2>
+        </h1>
         <Testimonials
           type="SECONDARY"
           slidesToShow={3}

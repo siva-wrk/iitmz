@@ -8,9 +8,9 @@ export default function CampusLife() {
       <section className={styles.campus}>
         <div className="container">
           <div className={styles.content}>
-            <h2>
+            <h1>
               Discover <br /> Our Campus <span>.</span>
-            </h2>
+            </h1>
             <p>
               At IITM Zanzibar, campus life is an integral part of the
               educational experience. Our stimulating environment encourages

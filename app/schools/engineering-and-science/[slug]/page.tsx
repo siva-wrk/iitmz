@@ -37,7 +37,7 @@ export default function CourseDetail({ params }: { params: { slug: string } }) {
       </div>
       <div className="container">
         <section className={styles.body}>
-          <h2>{course?.title}</h2>
+          <h1>{course?.title}</h1>
           <div className={styles.meta}>
             <div className={styles.item}>
               <AiOutlineCalendar />
