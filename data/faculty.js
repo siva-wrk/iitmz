@@ -269,7 +269,7 @@ const faculty = [
     name: "Prof. Raghunathan Rengaswamy",
     img: "/prof-raghu.jpg",
     title:
-      "Marti Mannariah Gurunath Chair in Department of Chemical Engineering, IIT Madras",
+      "Marti Mannariah Gurunath Chair. Department of Chemical Engineering, IIT Madras",
     desc: "",
     interests:
       "My research areas are Reinforcement Learning, Big Data Process Analytics, Machine Learning & Big Data.",
