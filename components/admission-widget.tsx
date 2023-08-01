@@ -8,7 +8,7 @@ export default function AdmissionWidget() {
       <div className={styles.content}>
         <Link href="/admission">Apply Now</Link>
         <Link target="_blank" href="/selection_process.pdf">
-          Download Brochure
+          Information Brochure
         </Link>
         <Link target="_blank" href="/bs-sample-questions_v2.pdf">
           BS Sample Questions
