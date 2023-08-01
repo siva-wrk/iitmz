@@ -1,6 +1,11 @@
 const media = {
   yt: [
     {
+      title:
+        "More countries inviting India to set up IIT campus abroad: PM Modi",
+      id: "Vyf7tIhrJaE",
+    },
+    {
       title: "Zanzibar and India sign agreement to open IIT campus in Zanzibar",
       id: "po3JPFVT_BU",
     },
@@ -8,6 +13,11 @@ const media = {
       title:
         "IIT Madras Set To Create History By Establishing An International Campus In Zanzibar-Tanzania",
       id: "xrN7ThgqM74",
+    },
+    {
+      title:
+        "A conversation with Preeti Aghalayam, the first director of an overseas IIT campus, in Zanzibar",
+      id: "TQPAJph-0a0",
     },
     {
       title: "Meet The Woman In Charge Of IIT Zanzibar | Newsbreak",
@@ -19,12 +29,17 @@ const media = {
         "IIT Madras Campus in Zanzibar, Tanzania | Strengthening Global Education",
       id: "CyIGEw5Te9I",
     },
-    {
-      title: "IIT Madras Zanzibar Campus for your Data Science and AI programs",
-      id: "wUA0DH4xU58",
-    },
   ],
   articles: [
+    {
+      title: "Indian students can also apply at IIT’s African campus ",
+      desc: "Indian students can also apply and appear for the three-level process for admission into the first offshore campus to be started by the Indian Institute of Technology Madras on the African island of Zanzibar in Tanzania. The fees will be $12,000 per year for bachelors and $4,000 for post-graduate. Classes will begin in October. ",
+      link: "https://www.thehindu.com/education/indian-students-can-also-apply-at-iits-african-campus/article67065043.ece",
+      image: {
+        url: "/media5.png",
+        alt: "Image of Director of Indian Institute of Technology Madras V. Kamakoti. File | Photo Credit: PTI ",
+      },
+    },
     {
       title: "IIT Madras’ Zanzibar campus to commence classes from October",
       desc: "The international campus of the Indian Institute of Technology Madras (IIT Madras), spread across 200 acres on Zanzibar Island in Tanzania, will start classes in October 2023. Preeti Aghalayam, Dean of the School of Science & Engineering, IIT Madras, will be the first women director of an IIT as she is the Director-in-charge of international campus of the IIT Madras at Zanzibar-Tanzania.",
@@ -88,7 +103,7 @@ const media = {
       desc: "Indian students can also apply and appear for the three-level process for admission into the first offshore campus to be started by the Indian Institute of Technology Madras on the African island of Zanzibar in Tanzania. The campus will offer two full-time academic programmes, a four-year Bachelor of Science in Data Science and Artificial Intelligence and a two-year Master of Technology in Data Science and Artificial Intelligence.",
       link: "https://www.outlookindia.com/national/iit-tanzania-campus-to-offer-data-science-and-ai-courses-classes-to-start-from-october-news-301721",
       image: {
-        url: "/media5.jpg",
+        url: "/media5.png",
         alt: "Image of IITM Director",
       },
     },
