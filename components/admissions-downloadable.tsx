@@ -6,7 +6,7 @@ export default function AdmissionsDownloadable() {
   return (
     <div className={styles.section}>
       <div className="container">
-        <p>Downloadble resources to help you prepare for Admissions 2023</p>
+        <p>Downloadable resources to help you prepare for Admissions 2023</p>
         <div className={styles.buttons}>
           <Link target="_blank" href="/selection_process.pdf">
             <Button>Information Brochure</Button>
