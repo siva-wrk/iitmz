@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint"
   },
@@ -21,6 +22,7 @@
     "eslint-config-next": "^13.4.4",
     "next": "^13.4.4",
     "next-images": "^1.8.5",
+    "next-sitemap": "^4.1.8",
     "plaiceholder": "^3.0.0",
     "react": "^18.2.0",
     "react-blaze-slider": "^1.7.2",
