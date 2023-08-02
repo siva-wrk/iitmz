@@ -447,7 +447,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <SocialMedia />
+      <SocialMedia kind="FULL" />
       <Gallery />
     </main>
   );
