@@ -1,0 +1,23 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  svg {
+    height: 450px;
+    width: 600px;
+  }
+  button {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    min-height: 60vh;
+    svg {
+      height: 250px;
+      width: 400px;
+    }
+  }
+}
