@@ -10,10 +10,10 @@ export default function AdmissionWidget() {
         <Link target="_blank" href="/selection_process.pdf">
           Information Brochure
         </Link>
-        <Link target="_blank" href="/bs-sample-questions_v2.pdf">
+        <Link target="_blank" href="/bs-sample-questions_v3.pdf">
           BS Sample Questions
         </Link>
-        <Link target="_blank" href="/mtech-sample-questions.pdf">
+        <Link target="_blank" href="/mtech-sample-questions_v2.pdf">
           MTech Sample Questions
         </Link>
       </div>

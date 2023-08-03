@@ -11,10 +11,10 @@ export default function AdmissionsDownloadable() {
           <Link target="_blank" href="/selection_process.pdf">
             <Button>Information Brochure</Button>
           </Link>
-          <Link target="_blank" href="/bs-sample-questions_v2.pdf">
+          <Link target="_blank" href="/bs-sample-questions_v3.pdf">
             <Button>BS Sample Questions</Button>
           </Link>
-          <Link target="_blank" href="/mtech-sample-questions.pdf">
+          <Link target="_blank" href="/mtech-sample-questions_v2.pdf">
             <Button>MTech Sample Questions</Button>
           </Link>
         </div>
