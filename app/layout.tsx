@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import { Suspense } from "react";
 import { Lato, Raleway } from "next/font/google";
 import Header from "@/components/header";
-// import Footer from "@/components/footer";
+import Footer from "@/components/footer";
 import AdmissionWidget from "@/components/admission-widget";
 import Analytics from "@/components/analytics";
 
@@ -48,7 +48,7 @@ export default function RootLayout({
       <body className={`${lato.className}${raleway.className}`}>
         <Header />
         {children}
-        {/* <Footer /> */}
+        <Footer />
         <AdmissionWidget />
         <Suspense>
           <Analytics />
