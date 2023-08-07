@@ -7,7 +7,7 @@ export default function AdmissionWidget() {
       <button>Admissions 2023</button>
       <div className={styles.content}>
         <Link href="/admission">Apply Now</Link>
-        <Link target="_blank" href="/selection_process.pdf">
+        <Link target="_blank" href="/information_brochure.pdf">
           Information Brochure
         </Link>
         <Link target="_blank" href="/bs-sample-questions_v3.pdf">
