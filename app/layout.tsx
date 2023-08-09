@@ -24,8 +24,9 @@ export async function generateMetadata({
 
   return {
     metadataBase: new URL("https://zanzibar.iitm.ac.in"),
-    title: "IIT Madras Zanzibar Campus",
-    description: "IIT Madras Zanzibar Campus",
+    title: "IIT Madras Zanzibar Campus | Empower Your Future with IIT",
+    description:
+      "Discover the Latest from IIT Madras Zanzibar Campus. Exciting Programs and Global Opportunities Await. Learn More!",
     applicationName: "IITM Zanzibar",
     themeColor: "#d50032",
     alternates: {
