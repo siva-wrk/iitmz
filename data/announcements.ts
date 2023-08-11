@@ -11,7 +11,7 @@ const announcements: AnnouncementsArray = [
   },
   {
     title:
-      "Applications deadline is extended till 12th August. Hurry! Applications are closing in {{DAYS_LEFT,2023-08-12}}. Apply Now!",
+      "Applications deadline is extended till 12th August. Hurry! Applications are closing {{DAYS_LEFT,2023-08-12}}. Apply Now!",
   },
   {
     title:
