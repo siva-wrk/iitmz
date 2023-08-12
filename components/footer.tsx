@@ -685,15 +685,14 @@ export default function Footer() {
             {`${new Date().getFullYear()} IITM Zanzibar, All Rights Reserved `}
           </p>
           <p>
-            <BiCodeAlt /> Built with <AiFillHeart className={styles.heart} />
-            by&nbsp;
+            <BiCodeAlt /> Developed by&nbsp;
             <Link href="mailto:alwin.kvg@gmail.com">
-              <AiOutlineMail className={styles.mail} /> alwin&nbsp;
+              <AiOutlineMail className={styles.mail} /> Alwin&nbsp;
             </Link>
             &
             <Link target="_blank" href="https://www.rebasedesign.com/">
               <BsGlobeAmericas className={styles.website} />
-              rebase design
+              Rebase design
             </Link>
           </p>
           <SocialMedia kind="MINIMAL" />
