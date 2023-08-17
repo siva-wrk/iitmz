@@ -838,6 +838,108 @@ const faculty = [
     ],
   },
   {
+    slug: "prof-umasankar-patra",
+    name: "Prof Umasankar Patra",
+    img: "/umasankar-alt.jpeg",
+    title: "Professor, Dept of Humanities And Social Sciences",
+    desc: "",
+    interests:
+      "My research interests are Anglo-American Modernism, Life Writing, Queer Studies, Modernity in India, and Translation.",
+    contact: {
+      email: "umasankar@iitm.ac.in",
+      website: "https://hss.iitm.ac.in/team-members/umasankar/",
+    },
+    qualification: [
+      {
+        title: "Ph.D.",
+        year: "2019",
+        course: "",
+        place: "University of Delhi",
+      },
+      {
+        title: "MPhil",
+        year: "2012",
+        course: "",
+        place: "English and Foreign Languages University, Hyderabad",
+      },
+      {
+        title: "MA",
+        year: "2011",
+        course: "English",
+        place: "University of Hyderabad",
+      },
+      {
+        title: "BA",
+        year: "2009",
+        course: "English",
+        place: "Fakir Mohan University, Odisha",
+      },
+    ],
+    awards: [
+      {
+        title: "Best Performer Award for Teaching and Research, 2022",
+        from: "NIT, Tiruchirappalli",
+      },
+      {
+        title: "Bursary Grant from the Institute of English Studies, 2017",
+        from: "University of London",
+      },
+      {
+        title: "Christopher Isherwood Foundation Fellowship, 2015",
+        from: "The Huntington Library, San Marino, USA",
+      },
+      {
+        title: "UGC Junior Research Fellowship, 2003",
+        from: "",
+      },
+    ],
+    papers: [
+      {
+        title:
+          "Inspectors of the Raj: A Pedagogy of Critical Conservatism in Odisha",
+        authors: ["Patra, Umasankar"],
+        publisher: "South Asia, 46, no. 3, pp. 318-335",
+        year: 2023,
+      },
+      {
+        title:
+          "Queer Camera: Christopher Isherwood’s Goodbye to Berlin and Prater Violet",
+        authors: ["Patra, Umasankar"],
+        publisher: "Journal of Homosexuality, vol. 69, No.3, pp. 565-585",
+        year: 2022,
+      },
+      {
+        title:
+          "Fakir Mohan Senapati’s Atmacharita: Episodic Autobiography, History, and Interiority",
+        authors: ["Patra, Umasankar"],
+        publisher: "Biography, 44 no. 4, pp. 541-560",
+        year: 2021,
+      },
+      {
+        title:
+          "Telling Stories in ‘Queer Hell’: Christopher Isherwood’s Down There on a Visit",
+        authors: ["Patra, Umasankar"],
+        publisher: "The Explicator, 75, no.1, pp. 37-39",
+        year: 2017,
+      },
+      {
+        title: "Translating an Indian Way of Thinking",
+        authors: ["Patra, Umasankar"],
+        publisher: "Indian Literature, vol LX, no. 299, pp. 62-70",
+        year: 2017,
+      },
+    ],
+    contributions: [
+      {
+        title: "Reviewer, Oxford Bibliographies",
+      },
+      {
+        title:
+          "Reviewer, Sāhitya, Journal of the Comparative Literature Association of India",
+      },
+    ],
+  },
+  {
     slug: "prof-ligy-philip",
     name: "Prof Ligy Philip",
     img: "/ligy-1.png",

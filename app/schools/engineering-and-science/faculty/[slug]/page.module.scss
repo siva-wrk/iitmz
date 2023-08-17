@@ -4,6 +4,7 @@
     background: #fff;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
     display: flex;
+    gap: 2.5rem;
     align-items: flex-start;
     background: #fff;
     border-radius: 4px;
@@ -235,6 +236,7 @@
     padding: 2rem 0 3rem;
     & > div {
       flex-direction: column;
+      gap: 0;
     }
   }
   .profile {
