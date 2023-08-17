@@ -610,7 +610,6 @@ const faculty = [
         from: "National Council for Educational Research and Training, New Delhi",
       },
     ],
-    courses: [],
     papers: [
       {
         title:
@@ -971,7 +970,6 @@ const faculty = [
         place: "M.G.University Kottayam",
       },
     ],
-    courses: [],
     papers: [
       {
         title:

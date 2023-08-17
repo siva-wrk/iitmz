@@ -88,7 +88,7 @@ export default function FacultyPage({ params }: { params: { slug: string } }) {
             <p>{facultyMember.interests}</p>
           </div>
 
-          {facultyMember.courses?.length > 0 && (
+          {facultyMember.courses && (
             <div className={styles.courses}>
               <h2>Relevant Courses Taught</h2>
               <ul>
