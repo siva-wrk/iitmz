@@ -1,5 +1,14 @@
 import styles from "./page.module.scss";
 
+export const metadata = {
+  title: "Financial Aid",
+  description:
+    "Explore Financial Aid Options at IIT Madras Zanzibar. We're Committed to Making Quality Education Accessible With Scholarships, Alumni Support & More",
+  alternates: {
+    canonical: `financial-aid`,
+  },
+};
+
 export default function FinancialAidPage() {
   return (
     <section className={styles.section}>

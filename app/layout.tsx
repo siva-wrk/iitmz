@@ -15,25 +15,17 @@ const raleway = Raleway({
   subsets: ["latin"],
 });
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const { slug } = params;
-
-  return {
-    metadataBase: new URL("https://zanzibar.iitm.ac.in"),
-    title: "IIT Madras Zanzibar Campus | Empower Your Future with IIT",
-    description:
-      "Discover the Latest from IIT Madras Zanzibar Campus. Exciting Programs and Global Opportunities Await. Learn More!",
-    applicationName: "IITM Zanzibar",
-    themeColor: "#d50032",
-    alternates: {
-      canonical: slug,
-    },
-  };
-}
+export const metadata = {
+  metadataBase: new URL("https://zanzibar.iitm.ac.in"),
+  title: {
+    default: "IIT Madras Zanzibar Campus | Empower Your Future with IIT",
+    template: `%s | IIT Madras Zanzibar`,
+  },
+  description:
+    "Discover the Latest from IIT Madras Zanzibar Campus. Exciting Programs and Global Opportunities Await. Learn More!",
+  applicationName: "IITM Zanzibar",
+  themeColor: "#d50032",
+};
 
 export default function RootLayout({
   children,

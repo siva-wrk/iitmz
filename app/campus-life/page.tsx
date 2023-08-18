@@ -2,6 +2,15 @@ import styles from "./page.module.scss";
 import Img from "@/components/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Discover Our Campus",
+  description:
+    "Experience an Enriching Campus Life at IIT Madras Zanzibar. Diverse Clubs, Sports, Cultural Events, And Excellent Facilities Await. Learn More.",
+  alternates: {
+    canonical: `campus-life`,
+  },
+};
+
 export default function CampusLife() {
   return (
     <>
@@ -9,7 +18,7 @@ export default function CampusLife() {
         <div className="container">
           <div className={styles.content}>
             <h1>
-              Discover <br /> Our Campus <span>.</span>
+              Discover <br /> Our Campus
             </h1>
             <p>
               At IITM Zanzibar, campus life is an integral part of the

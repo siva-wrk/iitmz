@@ -3,6 +3,14 @@ import Slider from "@/components/slider";
 import Img from "@/components/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Our Partners",
+  description: "Learn More About the Partners of IIT Madras Zanzibar Campus.",
+  alternates: {
+    canonical: `partners`,
+  },
+};
+
 export default function PartnersPage() {
   return (
     <div className={styles.page}>

@@ -3,6 +3,15 @@ import Button from "@/components/button";
 import Link from "next/link";
 import { AiOutlineCalendar } from "react-icons/ai";
 
+export const metadata = {
+  title: "Careers",
+  description:
+    "Check Out The Career Opportunities at IIT Madras Zanzibar Campus.",
+  alternates: {
+    canonical: `careers`,
+  },
+};
+
 export default function CareersPage() {
   return (
     <section className={styles.section}>

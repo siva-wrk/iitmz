@@ -11,6 +11,22 @@ import {
 import { BiBuilding } from "react-icons/bi";
 import { GoGlobe } from "react-icons/go";
 
+export async function generateMetadata({
+  params: { slug },
+}: {
+  params: { slug: string };
+}) {
+  const course = Object.values(courses).find((course) => course.slug === slug);
+
+  return {
+    title: `${course?.title} | Apply Now`,
+    description: course?.seo?.desc,
+    alternates: {
+      canonical: `schools/engineering-and-science/${slug}`,
+    },
+  };
+}
+
 const dynamicParams = false;
 export { dynamicParams };
 

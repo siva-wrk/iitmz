@@ -2,6 +2,15 @@ import Testimonials from "@/components/testimonials";
 import styles from "./page.module.scss";
 import "blaze-slider/dist/blaze.css";
 
+export const metadata = {
+  title: "Testimonials",
+  description:
+    "Learn More From The Experience of Our Students. Check Out Student Testimonials Here. ",
+  alternates: {
+    canonical: `testimonials`,
+  },
+};
+
 export default function TestimonialsPage() {
   return (
     <div className={styles.page}>

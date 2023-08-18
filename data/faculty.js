@@ -1,6 +1,9 @@
 const faculty = [
   {
     slug: "prof-ramkrishna-pasumarthy",
+    seo: {
+      desc: "Prof. Ramkrishna Pasumarthy is the Program Chair of BS in Data Science & AI at IIT Madras Zanzibar. Learn More. ",
+    },
     name: "Prof. Ramkrishna Pasumarthy",
     img: "/ramkrishna.png",
     title: "Program Chair, BS DS & AI",
@@ -117,6 +120,9 @@ const faculty = [
   },
   {
     slug: "dr-nirav-bhatt",
+    seo: {
+      desc: "Dr. Nirav Bhatt is the Program Chair of Mtech in Data Science & AI at IIT Madras Zanzibar. Learn More.",
+    },
     name: "Dr. Nirav Bhatt",
     img: "/nirav-1.jpg",
     title: "Program Chair, MTech DS & AI",
@@ -266,6 +272,9 @@ const faculty = [
   },
   {
     slug: "prof-raghunathan-rengaswamy",
+    seo: {
+      desc: "Prof. Raghunathan Rengaswamy is the Marti Mannariah Gurunath Chair of the Department of Chemical Engineering at IIT Madras Zanzibar. Learn More.",
+    },
     name: "Prof. Raghunathan Rengaswamy",
     img: "/prof-raghu.jpg",
     title:
@@ -425,6 +434,9 @@ const faculty = [
   },
   {
     slug: "prof-preeti-aghalayam",
+    seo: {
+      desc: "Prof. Preeti Aghalayam is the Dean And Director in Charge at IIT Madras Zanzibar Campus. Learn More.",
+    },
     name: "Prof. Preeti Aghalayam",
     img: "/preeti-a.jpg",
     title: "Dean",
@@ -555,6 +567,9 @@ const faculty = [
   },
   {
     slug: "prof-suresh-govindarajan",
+    seo: {
+      desc: "Prof. Suresh Govindarajan Works in The Department of Physics at IIT Madras Zanzibar. Learn More.",
+    },
     name: "Prof. Suresh Govindarajan",
     img: "/suresh.png",
     title: "Professor, Dept of Physics",
@@ -714,6 +729,9 @@ const faculty = [
   },
   {
     slug: "prof-narayanan-n",
+    seo: {
+      desc: "Prof. Narayanan N Works in The Department of Mathematics at IIT Madras Zanzibar. Learn More.",
+    },
     name: "Prof. Narayanan N",
     img: "/narayanan.png",
     title: "Professor, Dept of Mathematics",
@@ -838,6 +856,9 @@ const faculty = [
   },
   {
     slug: "prof-umasankar-patra",
+    seo: {
+      desc: "Prof. Umasankar Patra Works in The Department of Humanities And Social Sciences at IIT Madras Zanzibar. Learn More.",
+    },
     name: "Prof. Umasankar Patra",
     img: "/umasankar-alt.jpeg",
     title: "Professor, Dept of Humanities And Social Sciences",
@@ -940,6 +961,9 @@ const faculty = [
   },
   {
     slug: "prof-ligy-philip",
+    seo: {
+      desc: "Prof. Ligy Philip is The Professor in Charge of Infrastructure at IIT Madras Zanzibar. Learn More.",
+    },
     name: "Prof. Ligy Philip",
     img: "/ligy-1.png",
     title: "Professor-in-charge (Infrastructure)",
