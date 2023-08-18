@@ -425,7 +425,7 @@ const faculty = [
   },
   {
     slug: "prof-preeti-aghalayam",
-    name: "Prof Preeti Aghalayam",
+    name: "Prof. Preeti Aghalayam",
     img: "/preeti-a.jpg",
     title: "Dean",
     titlesec: "Director-in-charge",
@@ -555,7 +555,7 @@ const faculty = [
   },
   {
     slug: "prof-suresh-govindarajan",
-    name: "Prof Suresh Govindarajan",
+    name: "Prof. Suresh Govindarajan",
     img: "/suresh.png",
     title: "Professor, Dept of Physics",
     desc: "",
@@ -714,7 +714,7 @@ const faculty = [
   },
   {
     slug: "prof-narayanan-n",
-    name: "Prof Narayanan N",
+    name: "Prof. Narayanan N",
     img: "/narayanan.png",
     title: "Professor, Dept of Mathematics",
     desc: "",
@@ -838,7 +838,7 @@ const faculty = [
   },
   {
     slug: "prof-umasankar-patra",
-    name: "Prof Umasankar Patra",
+    name: "Prof. Umasankar Patra",
     img: "/umasankar-alt.jpeg",
     title: "Professor, Dept of Humanities And Social Sciences",
     desc: "",
@@ -940,7 +940,7 @@ const faculty = [
   },
   {
     slug: "prof-ligy-philip",
-    name: "Prof Ligy Philip",
+    name: "Prof. Ligy Philip",
     img: "/ligy-1.png",
     title: "Professor-in-charge (Infrastructure)",
     desc: "",
