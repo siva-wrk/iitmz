@@ -13,6 +13,7 @@ export default function Hero() {
             alt="College Students Image"
             src="/hero2.jpg"
             loading="eager"
+            sizes="(max-width: 768px) 900px, (min-width: 768px) 1200px"
           />
 
           <div className={styles.content}>
