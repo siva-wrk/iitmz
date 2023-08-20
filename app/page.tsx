@@ -10,6 +10,12 @@ import AdvisoryCouncil from "@/components/advisory-council";
 import Leadership from "@/components/leadership";
 import SocialMedia from "@/components/social-media";
 
+export const metadata = {
+  alternates: {
+    canonical: `/`,
+  },
+};
+
 export default function Home() {
   return (
     <main>
