@@ -12,29 +12,29 @@
   },
   "dependencies": {
     "@plaiceholder/next": "^3.0.0",
-    "@szhsin/react-accordion": "^1.2.3",
-    "@szhsin/react-menu": "^4.0.3",
-    "@types/node": "^20.5.1",
-    "@types/react": "^18.2.20",
-    "@types/react-dom": "^18.2.7",
+    "@szhsin/react-accordion": "^1.2.2",
+    "@szhsin/react-menu": "^4.0.0",
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.9",
+    "@types/react-dom": "^18.2.4",
     "blaze-slider": "^1.9.3",
     "eslint": "^8.47.0",
-    "eslint-config-next": "^13.4.19",
-    "next": "^13.4.20-canary.9",
+    "eslint-config-next": "^13.4.13",
+    "next": "^13.4.13",
     "next-images": "^1.8.5",
-    "next-sitemap": "^4.2.2",
+    "next-sitemap": "^4.1.8",
     "plaiceholder": "^3.0.0",
     "react": "^18.2.0",
     "react-blaze-slider": "^1.7.2",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.0",
-    "react-icons": "^4.10.1",
+    "react-icons": "^4.8.0",
     "react-player": "^2.12.0",
     "react-string-replace": "^1.1.1",
     "sharp": "^0.32.1",
     "typescript": "^5.1.6"
   },
   "devDependencies": {
-    "sass": "^1.66.1"
+    "sass": "^1.63.2"
   }
 }
