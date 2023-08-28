@@ -18,7 +18,7 @@ export default function News() {
             </Link>
           </div>
           <NewsCard
-            link=" https://www.indiatoday.in/education-today/news/story/iit-madras-set-to-create-history-by-establishing-an-international-campus-in-zanzibar-tanzania-2404437-2023-07-10"
+            link="https://www.indiatoday.in/education-today/news/story/iit-madras-set-to-create-history-by-establishing-an-international-campus-in-zanzibar-tanzania-2404437-2023-07-10"
             image={{
               url: "/slot1.webp",
               alt: "Logo of IIT Madras",
