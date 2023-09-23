@@ -2,9 +2,7 @@ import styles from "./footer.module.scss";
 import Link from "next/link";
 import Navbar from "./navbar";
 import { BiCopyright } from "react-icons/bi";
-import { AiFillHeart, AiOutlineMail } from "react-icons/ai";
-import { BiCodeAlt } from "react-icons/bi";
-import { BsFillTelephoneFill, BsGlobeAmericas } from "react-icons/bs";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
 import SocialMedia from "./social-media";
 
@@ -684,18 +682,7 @@ export default function Footer() {
             &nbsp;
             {`${new Date().getFullYear()} IITM Zanzibar, All Rights Reserved `}
           </p>
-          <p>
-            <BiCodeAlt /> Developed by&nbsp;
-            <Link href="mailto:alwin.kvg@gmail.com">
-              <AiOutlineMail className={styles.mail} /> Alwin&nbsp;
-            </Link>
-            &
-            <Link target="_blank" href="https://www.rebasedesign.com/">
-              <BsGlobeAmericas className={styles.website} />
-              Rebase design
-            </Link>
-          </p>
-          <SocialMedia kind="MINIMAL" />
+         <SocialMedia kind="MINIMAL" />
         </div>
       </div>
     </div>
