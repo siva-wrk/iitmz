@@ -29,7 +29,21 @@ const navMenu = [
   { title: "In Media", link: "/media/" },
   { title: "Our Partners", link: "/partners/" },
   { title: "Testimonials", link: "/testimonials/" },
-  { title: "Campus Life", link: "/campus-life/" },
+  { 
+    title: "Campus Life",  
+    link: "/campus-life/" ,
+    
+    submenus: [
+      {
+        title: "Hostel",
+        link: "/campus-life/hostel",
+      },
+      {
+        title: "Admin Building",
+        link: "/campus-life/admin-building",
+      }, 
+    ],
+  },
   { title: "Financial Aid", link: "/financial-aid/" },
   { title: "Admissions", link: "/admission/" },
   { title: "Privacy Policy", link: "/privacy-policy", type: "FOOTER_ONLY" },

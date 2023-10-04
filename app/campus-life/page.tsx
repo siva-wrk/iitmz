@@ -17,25 +17,27 @@ export default function CampusLife() {
       <section className={styles.campus}>
         <div className="container">
           <div className={styles.content}>
-            <h1>
-              Discover <br /> Our Campus
+          <h1 className="main-title">
+            IITM Zanzibar Transit Campus : A Glimpse of Excellence
             </h1>
             <p>
-              At IITM Zanzibar, campus life is an integral part of the
-              educational experience. Our stimulating environment encourages
-              personal growth, community, and exploration. With diverse student
-              clubs, sports facilities, cultural events, support services, and a
-              serene atmosphere, students can thrive academically, socially, and
-              personally.
+            Our Transit Campus in Bweleo, Zanzibar, Tanzania, represents a vital stepping stone 
+            towards the realization of our vision at the Indian Institute of Technology Madras (IIT Madras). 
+            This interim facility, set to open in mid-October 2023, stands as a testament to our unwavering 
+            commitment to providing students and faculty with an exceptional educational and research environment. 
+            Equipped with modern amenities such as smart classrooms, auditoriums, a dedicated dispensary, 
+            and comprehensive security measures, our Transit Campus is poised to be a vibrant center for 
+            learning, innovation, and collaboration..
             </p>
             <p>
-              The IIT Madras Zanzibar campus will comprise four large classrooms
-              and several smaller classrooms. Laboratory spaces will cater to
-              the needs of the students, and include computers, physics and
-              chemistry. Students will be accommodated on campus in hostel
-              (dorm) rooms and have access to a dining hall, a multipurpose
-              store, a smart seminar hall and an auditorium as well.
+            While we eagerly anticipate the completion of the Permanent Zanzibar Campus, 
+            this page offers a sneak peek into the world of opportunities that await you right now. 
+            Explore the meticulously planned facilities, infrastructure, and campus life that will soon 
+            become an integral part of your educational journey..
             </p>
+            <p>We invite you to join us on this extraordinary adventure as we build a brighter future together.
+               The Zanzibar Campus is not just a place; it's a promise of boundless possibilities and limitless horizons. 
+               We look forward to welcoming you to our global family at IIT Madras.</p>
           </div>
           <div className={styles.images}>
             <Link target="_blank" href="/layout-ground-floor.webp">
