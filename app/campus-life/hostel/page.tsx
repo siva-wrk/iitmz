@@ -85,7 +85,7 @@ export default function hostelPage() {
             <div className={styles.content}>
               <p>
               In addition to your room, our hostels feature common rooms where you can unwind, socialise, 
-              or engage in recreational activities. You'll also find TV rooms and quiet reading spaces for your leisure and study needs.
+              or engage in recreational activities. You&rsquo;ll also find TV rooms and quiet reading spaces for your leisure and study needs.
               </p>
             </div>
           </div>
@@ -130,12 +130,12 @@ export default function hostelPage() {
               Our hostels are more than just places to sleep; they are hubs of camaraderie and collaboration. 
               Forge lifelong friendships, study together, and create memories that will last a lifetime. <br/>
 
-              Living on campus offers more than just convenience—it's an opportunity to be part of a vibrant 
+              Living on campus offers more than just convenience—it&rsquo;s an opportunity to be part of a vibrant 
               academic community, share experiences, and make lasting connections. We look forward to providing 
               you with a comfortable and welcoming home during your time at the Zanzibar Campus.<br/>
 
-              Explore the rest of our facilities to discover how we're committed to enhancing your overall campus experience. 
-              If you have any questions or would like to know more about our hostel facilities, please don't hesitate to contact us.
+              Explore the rest of our facilities to discover how we&rsquo;re committed to enhancing your overall campus experience. 
+              If you have any questions or would like to know more about our hostel facilities, please don&rsquo;t hesitate to contact us.
 
               </p>
             </div>

@@ -38,7 +38,7 @@ export default function adminBuildingPage() {
             </div>
             <div className={styles.content}>
               <p>
-              Within the Admin Building, you'll find a range of administrative offices
+              Within the Admin Building, you&rsquo;ll find a range of administrative offices
               to address your needs. These include rooms for admin staff, technical staff, and dedicated faculty rooms.
               </p>
             </div>
@@ -48,13 +48,13 @@ export default function adminBuildingPage() {
           <div className={styles.item}>
             <div className={styles.title}>
               <h2>
-              Director's Office
+              Director&rsquo;s Office
               </h2>
             </div>
             <div className={styles.content}>
               <p>
-              The Director's Office serves as the epicenter of leadership and decision-making, 
-              ensuring a cohesive vision for the campus's growth and development.
+              The Director&rsquo;s Office serves as the epicenter of leadership and decision-making, 
+              ensuring a cohesive vision for the campus&rsquo;s growth and development.
               </p>
             </div>
           </div>
@@ -113,9 +113,9 @@ export default function adminBuildingPage() {
               Our hybrid classrooms are designed to facilitate both in-person and virtual learning, 
               ensuring flexibility and accessibility for students and faculty.<br/>
 
-              The Admin Building is not just a place of operations; it's a space where ideas are nurtured, 
-              knowledge is shared, and innovation is cultivated. It's where the foundations for your academic 
-              journey are laid, and where you'll find the support and resources you need to thrive.<br/>
+              The Admin Building is not just a place of operations; it&rsquo;s a space where ideas are nurtured, 
+              knowledge is shared, and innovation is cultivated. It&rsquo;s where the foundations for your academic 
+              journey are laid, and where you&rsquo;ll find the support and resources you need to thrive.<br/>
 
                 As the heart of our campus, the Admin Building embodies our commitment to academic excellence 
                 and the holistic development of our community. It is here that the aspirations and dreams of our 

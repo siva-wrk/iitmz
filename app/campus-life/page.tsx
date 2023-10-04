@@ -36,7 +36,7 @@ export default function CampusLife() {
             become an integral part of your educational journey..
             </p>
             <p>We invite you to join us on this extraordinary adventure as we build a brighter future together.
-               The Zanzibar Campus is not just a place; it's a promise of boundless possibilities and limitless horizons. 
+               The Zanzibar Campus is not just a place; it&rsquo;s a promise of boundless possibilities and limitless horizons. 
                We look forward to welcoming you to our global family at IIT Madras.</p>
           </div>
           <div className={styles.images}>
