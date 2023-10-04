@@ -11,7 +11,7 @@ type TestimonialsProps = Omit<SliderProps, "children"> & {
 export default function Testimonials({ ...props }: TestimonialsProps) {
   return (
     <section className={props.type === "PRIMARY" ? `` : styles.secondary}>
-     <center><iframe src="https://fm.addxt.com/form/?vf=1FAIpQLScEjJBhTLHZCDUQzyF6bJQPr6cNxswlzuXorbXHMcih2kFLeQ" width="1080" height="1240" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center>
+     <center><iframe src="https://fm.addxt.com/form/?vf=1FAIpQLScEjJBhTLHZCDUQzyF6bJQPr6cNxswlzuXorbXHMcih2kFLeQ" style={{width: 1080, height: 1240, border: 0, margin: 0}} >Loading…</iframe></center>
       <Slider {...props}>
         <div className={styles.item}>
           <div className={styles.quote}>
